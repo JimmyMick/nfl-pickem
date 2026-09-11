@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Streamlit real secrets (only the .example is committed)
+.streamlit/secrets.toml
+
+# The app's data are committed artifacts. A global gitignore may exclude *.csv,
+# so explicitly re-include the ones this app serves.
+!predictions/cloud/*.csv
+!predictions/picks/*.csv
+!predictions/cloud/blog/*.md

@@ -1,0 +1,18 @@
+{
+  "grade_season": 2024,
+  "grade_through_week": 18,
+  "grade_generated_at": "2026-06-21T14:47:40+00:00",
+  "has_picks": false,
+  "preview_season": 2026,
+  "preview_week": 1,
+  "preview_generated_at": "2026-09-10T14:37:29+00:00",
+  "schedule_season": 2026,
+  "schedule_generated_at": "2026-09-11T16:10:50+00:00",
+  "sim_season": 2026,
+  "sim_through_week": 0,
+  "sim_generated_at": "2026-09-09T21:10:54+00:00",
+  "sim_market_season": 2026,
+  "sim_market_through_week": 0,
+  "sim_market_weight": 0.5,
+  "sim_market_generated_at": "2026-09-09T21:10:58+00:00"
+}

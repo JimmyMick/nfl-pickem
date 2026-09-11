@@ -1,0 +1,9 @@
+# Pick'em participants — one name per line. Blank lines and #comments ignored.
+# These names become the 'player' column when a week is seeded (uv run picks.py).
+# Keep them stable across the season so the leaderboard accumulates correctly.
+JMack
+Mike
+Tunk
+Clayton
+Eman
+CMac
