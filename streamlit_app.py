@@ -1073,18 +1073,23 @@ if graded is None and preview is None and schedule is None and sim is None:
                "been published.")
     st.stop()
 
-# Freshness line.
+# Freshness line. Use the NEWEST season across artifacts (a stale seeded grade
+# snapshot from a prior season shouldn't set the label), and only show a stamp
+# that belongs to that current season.
+_seasons = [meta.get(k) for k in
+            ("preview_season", "schedule_season", "sim_season", "grade_season")
+            if meta.get(k)]
+season = max(_seasons) if _seasons else ""
 stamps = []
-if meta.get("grade_generated_at"):
+if meta.get("grade_generated_at") and meta.get("grade_season") == season:
     stamps.append(f"grade through Wk {meta.get('grade_through_week', '?')} "
                   f"({meta['grade_generated_at'][:10]})")
-if meta.get("preview_generated_at"):
+if meta.get("preview_generated_at") and meta.get("preview_season") == season:
     stamps.append(f"preview Wk {meta.get('preview_week', '?')} "
                   f"({meta['preview_generated_at'][:10]})")
-season = (meta.get("grade_season") or meta.get("preview_season")
-          or meta.get("schedule_season") or meta.get("sim_season") or "")
-if stamps:
-    st.caption(f"**{season} season** · last updated: " + " · ".join(stamps))
+if season:
+    st.caption(f"**{season} season** · last updated: " + " · ".join(stamps)
+               if stamps else f"**{season} season**")
 
 tabs, names = [], []
 names.append("📝 Blog")  # landing tab (Streamlit opens the first tab)
