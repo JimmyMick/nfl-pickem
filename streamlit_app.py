@@ -556,10 +556,28 @@ def render_playoff_odds(sim, sim_history, meta, season, sim_market=None) -> None
                "**Just for fun — not a betting product.**")
 
 
-def render_unit_elo(unit) -> None:
+def _matchup_segments(unit: pd.DataFrame, matchups) -> "pd.DataFrame | None":
+    """Two rows per game (both teams' coords, shared game id) so a line connects
+    each of this week's matchups on the scatter."""
+    if matchups is None or matchups.empty:
+        return None
+    coord = unit.set_index("team")[["off_elo", "def_elo"]]
+    rows = []
+    for i, (_, g) in enumerate(matchups.iterrows()):
+        a, h = g.get("away_team"), g.get("home_team")
+        if a in coord.index and h in coord.index:
+            for t in (a, h):
+                rows.append({"g": i, "team": t, "matchup": f"{a} @ {h}",
+                             "off_elo": float(coord.loc[t, "off_elo"]),
+                             "def_elo": float(coord.loc[t, "def_elo"])})
+    return pd.DataFrame(rows) if rows else None
+
+
+def render_unit_elo(unit, matchups=None) -> None:
     """Offense vs defense Elo — scatter (both axes) + a sortable table.
 
-    Reads the exported unit_elo artifact; no computation here.
+    Reads the exported unit_elo artifact; no computation here. If ``matchups``
+    (this week's slate) is given, a light line connects each pair of opponents.
     """
     st.subheader("Unit Elo — offense vs defense")
     if unit is None or unit.empty:
@@ -570,24 +588,35 @@ def render_unit_elo(unit) -> None:
                "on the ~1500 Elo scale. **1500 = league average.**")
 
     base = 1500.0
-    pts = alt.Chart(unit).mark_circle(size=90, opacity=0.7).encode(
+    layers = [
+        alt.Chart(pd.DataFrame({"x": [base]})).mark_rule(
+            strokeDash=[4, 4], color="gray").encode(x="x:Q"),
+        alt.Chart(pd.DataFrame({"y": [base]})).mark_rule(
+            strokeDash=[4, 4], color="gray").encode(y="y:Q"),
+    ]
+    seg = _matchup_segments(unit, matchups)
+    if seg is not None:
+        layers.append(alt.Chart(seg).mark_line(
+            color="#888", opacity=0.4, strokeWidth=1).encode(
+            x="off_elo:Q", y="def_elo:Q", detail="g:N",
+            tooltip=[alt.Tooltip("matchup:N", title="This week")]))
+    layers.append(alt.Chart(unit).mark_circle(size=90, opacity=0.7).encode(
         x=alt.X("off_elo:Q", title="Offense Elo  →  (better)",
                 scale=alt.Scale(zero=False)),
         y=alt.Y("def_elo:Q", title="Defense Elo  →  (better)",
                 scale=alt.Scale(zero=False)),
         tooltip=["team",
                  alt.Tooltip("off_elo:Q", title="Off Elo", format=".0f"),
-                 alt.Tooltip("def_elo:Q", title="Def Elo", format=".0f")])
-    labels = alt.Chart(unit).mark_text(dy=-11, fontSize=10).encode(
-        x="off_elo:Q", y="def_elo:Q", text="team:N")
-    vline = alt.Chart(pd.DataFrame({"x": [base]})).mark_rule(
-        strokeDash=[4, 4], color="gray").encode(x="x:Q")
-    hline = alt.Chart(pd.DataFrame({"y": [base]})).mark_rule(
-        strokeDash=[4, 4], color="gray").encode(y="y:Q")
-    st.altair_chart((vline + hline + pts + labels).properties(height=460),
+                 alt.Tooltip("def_elo:Q", title="Def Elo", format=".0f")]))
+    layers.append(alt.Chart(unit).mark_text(dy=-11, fontSize=10).encode(
+        x="off_elo:Q", y="def_elo:Q", text="team:N"))
+    st.altair_chart(alt.layer(*layers).properties(height=460),
                     use_container_width=True)
+    hint = (" · gray lines connect **this week's matchups** (a long line = a big "
+            "unit mismatch)" if seg is not None else "")
     st.caption("Top-right = strong on **both** sides · bottom-left = weak on both "
-               "· top-left = defense-carried · bottom-right = shootout team.")
+               "· top-left = defense-carried · bottom-right = shootout team" + hint
+               + ".")
 
     d = unit.sort_values("off_elo", ascending=False)
     show = pd.DataFrame({
@@ -1123,7 +1152,7 @@ if "🏆 Playoff odds" in tab_by_name:
 
 if "⚔️ Unit Elo" in tab_by_name:
     with tab_by_name["⚔️ Unit Elo"]:
-        render_unit_elo(unit_elo_df)
+        render_unit_elo(unit_elo_df, matchups=preview)
 
 if "Pick'em leaderboard" in tab_by_name:
     with tab_by_name["Pick'em leaderboard"]:
