@@ -15,14 +15,20 @@ the schedule fetch for seeding lives in the picks.py CLI.
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from sklearn.metrics import brier_score_loss, log_loss
 
-# predictions/picks/ at the repo root (this file is repo/nfl_betting_model/picks.py).
-PICKS_DIR = Path(__file__).resolve().parent.parent / "predictions" / "picks"
+# predictions/picks/ — defaults to this repo, but honors NFL_PREDICTIONS_DIR so
+# the weekly crons read/seed picks in the public nfl-pickem clone (where the app
+# writes players' submissions).
+_PREDICTIONS_DIR = Path(
+    os.environ.get("NFL_PREDICTIONS_DIR")
+    or Path(__file__).resolve().parent.parent / "predictions")
+PICKS_DIR = _PREDICTIONS_DIR / "picks"
 PLAYERS_FILE = PICKS_DIR / "players.txt"
 
 # Columns in a weekly pick sheet. game_id is the join key; pick/confidence are

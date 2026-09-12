@@ -14,12 +14,18 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 from pathlib import Path
 
 import pandas as pd
 
-# predictions/cloud/ at the repo root (this file is repo/nfl_betting_model/cloud.py).
-ARTIFACT_DIR = Path(__file__).resolve().parent.parent / "predictions" / "cloud"
+# predictions/ root — defaults to this repo, but the weekly crons point it at the
+# public nfl-pickem clone (NFL_PREDICTIONS_DIR) so read/modify/write artifacts
+# (paper ledgers, grades) all land in the one repo the app deploys from.
+PREDICTIONS_DIR = Path(
+    os.environ.get("NFL_PREDICTIONS_DIR")
+    or Path(__file__).resolve().parent.parent / "predictions")
+ARTIFACT_DIR = PREDICTIONS_DIR / "cloud"
 
 GRADED_FILE = "graded_games.csv"
 SCORED_FILE = "scored_picks.csv"
