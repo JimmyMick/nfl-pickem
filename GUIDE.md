@@ -17,6 +17,7 @@ a bug, that's Jim — go bug him back.
 | **Season tracker** | How the model's doing vs Vegas, week by week. |
 | **🗓️ Schedule** | The full-season slate, with results as games finish. |
 | **🏆 Playoff odds** | A Monte Carlo sim of the rest of the season. |
+| **⚔️ Unit Elo** | Every team split into offense vs defense ratings. |
 | **Pick'em leaderboard** | Standings. Who's hot, who's not. |
 | **📈 Paper play** | A fake-money experiment betting one game a week. |
 | **📖 Guide** | You're here. |
@@ -96,6 +97,27 @@ lets you see both.
 sportsbook Super Bowl futures (de-vigged to real probabilities) — so you can read
 our model's number right next to what the market is charging. Big gaps are the fun
 part. **Just for fun — not a betting product.**
+
+## ⚔️ Unit Elo
+Takes each team's single Elo rating and splits it in two: an **offense** rating
+(how many points it scores) and a **defense** rating (how few it allows), each
+opponent-adjusted, both on the familiar scale where **1500 = league average**
+(above = better, and for defense "better" means stingier).
+
+The **scatter** plot is the quick read — offense along the bottom, defense up the
+side, dashed lines at average, splitting the league into four corners:
+- **top-right** = strong on *both* sides (the scary teams),
+- **bottom-left** = weak on both,
+- **top-left** = defense carrying a so-so offense,
+- **bottom-right** = big offense, no defense (shootout teams).
+
+Below it, the same data as a **sortable table** — click any column to rank by it.
+The **"pts vs avg"** columns are the plain-English version: `+4.8` means that
+offense scores about five more points a game than an average one.
+
+It's built from **final scores**, so field goals and return/defensive TDs get
+folded into offense/defense — a *pure* special-teams rating is a project for
+later. Descriptive, updated as games are played — not a betting tool.
 
 ## 🏆 Pick'em leaderboard
 Where the bragging rights live.
