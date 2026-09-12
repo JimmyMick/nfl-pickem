@@ -556,6 +556,59 @@ def render_playoff_odds(sim, sim_history, meta, season, sim_market=None) -> None
                "**Just for fun — not a betting product.**")
 
 
+def render_unit_elo(unit) -> None:
+    """Offense vs defense Elo — scatter (both axes) + a sortable table.
+
+    Reads the exported unit_elo artifact; no computation here.
+    """
+    st.subheader("Unit Elo — offense vs defense")
+    if unit is None or unit.empty:
+        st.info("Unit ratings haven't been published yet.")
+        return
+    st.caption("Each team split into an **offense** rating (points it scores) "
+               "and a **defense** rating (points it prevents), opponent-adjusted, "
+               "on the ~1500 Elo scale. **1500 = league average.**")
+
+    base = 1500.0
+    pts = alt.Chart(unit).mark_circle(size=90, opacity=0.7).encode(
+        x=alt.X("off_elo:Q", title="Offense Elo  →  (better)",
+                scale=alt.Scale(zero=False)),
+        y=alt.Y("def_elo:Q", title="Defense Elo  →  (better)",
+                scale=alt.Scale(zero=False)),
+        tooltip=["team",
+                 alt.Tooltip("off_elo:Q", title="Off Elo", format=".0f"),
+                 alt.Tooltip("def_elo:Q", title="Def Elo", format=".0f")])
+    labels = alt.Chart(unit).mark_text(dy=-11, fontSize=10).encode(
+        x="off_elo:Q", y="def_elo:Q", text="team:N")
+    vline = alt.Chart(pd.DataFrame({"x": [base]})).mark_rule(
+        strokeDash=[4, 4], color="gray").encode(x="x:Q")
+    hline = alt.Chart(pd.DataFrame({"y": [base]})).mark_rule(
+        strokeDash=[4, 4], color="gray").encode(y="y:Q")
+    st.altair_chart((vline + hline + pts + labels).properties(height=460),
+                    use_container_width=True)
+    st.caption("Top-right = strong on **both** sides · bottom-left = weak on both "
+               "· top-left = defense-carried · bottom-right = shootout team.")
+
+    d = unit.sort_values("off_elo", ascending=False)
+    show = pd.DataFrame({
+        "": team_logos(d["team"]), "Team": d["team"].values,
+        "Off Elo": d["off_elo"].round(0).values,
+        "Def Elo": d["def_elo"].round(0).values,
+        "Off (pts vs avg)": d["off_pts"].round(1).values,
+        "Def (pts vs avg)": d["def_pts"].round(1).values,
+    })
+    num = lambda lbl, fmt: st.column_config.NumberColumn(lbl, format=fmt)
+    st.dataframe(show, width="stretch", hide_index=True, column_config={
+        "": _logo_col(),
+        "Off Elo": num("Off Elo", "%.0f"), "Def Elo": num("Def Elo", "%.0f"),
+        "Off (pts vs avg)": num("Off (pts vs avg)", "%+.1f"),
+        "Def (pts vs avg)": num("Def (pts vs avg)", "%+.1f"),
+    })
+    st.caption("Ratings through the latest played game. **pts vs avg** = points "
+               "per game above/below an average unit. Derived from final scores, "
+               "so special-teams scoring is folded in.")
+
+
 def render_paper(ledger: pd.DataFrame) -> None:
     """The out-of-sample paper-trade tracker for the single biggest disagreement.
 
@@ -1010,6 +1063,7 @@ schedule = art["schedule"]
 sim = art["sim"]
 sim_history = art["sim_history"]
 sim_market = art["sim_market"]
+unit_elo_df = art["unit_elo"]
 paper_ledger = paper_mod.load_ledger()
 blog_posts = art["blog"]
 
@@ -1044,6 +1098,8 @@ if schedule is not None:
     names.append("🗓️ Schedule")
 if sim is not None:
     names.append("🏆 Playoff odds")
+if unit_elo_df is not None:
+    names.append("⚔️ Unit Elo")
 if scored is not None or graded is not None:
     names.append("Pick'em leaderboard")
 names.append("📈 Paper play")  # always shown; empty-state until the first play
@@ -1059,6 +1115,10 @@ if "🏆 Playoff odds" in tab_by_name:
     with tab_by_name["🏆 Playoff odds"]:
         render_playoff_odds(sim, sim_history, meta, meta.get("sim_season") or season,
                             sim_market=sim_market)
+
+if "⚔️ Unit Elo" in tab_by_name:
+    with tab_by_name["⚔️ Unit Elo"]:
+        render_unit_elo(unit_elo_df)
 
 if "Pick'em leaderboard" in tab_by_name:
     with tab_by_name["Pick'em leaderboard"]:

@@ -34,6 +34,7 @@ SCHEDULE_FILE = "schedule.csv"
 SIM_FILE = "playoff_odds.csv"
 SIM_HISTORY_FILE = "playoff_odds_history.csv"
 SIM_MARKET_FILE = "playoff_odds_market.csv"
+UNIT_ELO_FILE = "unit_elo.csv"
 BLOG_DIR = "blog"
 META_FILE = "meta.json"
 
@@ -257,6 +258,20 @@ def delete_blog_post(filename: str, art_dir: Path = ARTIFACT_DIR) -> bool:
     return False
 
 
+UNIT_ELO_COLS = ["team", "off_elo", "def_elo", "off_pts", "def_pts"]
+
+
+def write_unit_elo_artifact(ratings: pd.DataFrame, season: int,
+                            out_dir: Path = ARTIFACT_DIR) -> Path:
+    """Export the current offense/defense Elo table for the cloud dashboard."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    cols = [c for c in UNIT_ELO_COLS if c in ratings.columns]
+    ratings[cols].to_csv(out_dir / UNIT_ELO_FILE, index=False)
+    _write_meta(out_dir, unit_elo_season=int(season),
+                unit_elo_generated_at=_now())
+    return out_dir
+
+
 def load_artifacts(art_dir: Path = ARTIFACT_DIR) -> dict:
     """Read whatever artifacts exist. Missing frames come back as ``None``."""
     def _maybe(name: str) -> pd.DataFrame | None:
@@ -274,6 +289,7 @@ def load_artifacts(art_dir: Path = ARTIFACT_DIR) -> dict:
         "sim": _maybe(SIM_FILE),
         "sim_history": _maybe(SIM_HISTORY_FILE),
         "sim_market": _maybe(SIM_MARKET_FILE),
+        "unit_elo": _maybe(UNIT_ELO_FILE),
         "blog": load_blog_posts(art_dir),
         "meta": _read_meta(art_dir),
     }
