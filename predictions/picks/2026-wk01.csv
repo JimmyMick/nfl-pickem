@@ -22,7 +22,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,1,2026_01_CLE_JAX,,CLE,JAX,CMac,,,
 2026,1,2026_01_CLE_JAX,,CLE,JAX,Claude,JAX,58.0,"Jacksonville at home in warm weather suits their style, and both teams are in similar rebuilding phases, but home field tips this coin flip toward the Jaguars."
 2026,1,2026_01_CLE_JAX,,CLE,JAX,Clayton,,,
-2026,1,2026_01_CLE_JAX,,CLE,JAX,JMack,JAX,60.0,
+2026,1,2026_01_CLE_JAX,,CLE,JAX,JMack,JAX,67.0,
 2026,1,2026_01_DAL_NYG,,DAL,NYG,CMac,,,
 2026,1,2026_01_DAL_NYG,,DAL,NYG,Claude,DAL,62.0,Dallas has generally been the more talented team in this NFC East rivalry and should handle a Giants squad that has been in rebuild mode.
 2026,1,2026_01_DAL_NYG,,DAL,NYG,Clayton,,,
@@ -53,7 +53,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,1,2026_01_NYJ_TEN,,NYJ,TEN,JMack,NYJ,57.0,
 2026,1,2026_01_SF_LA,,SF,LA,CMac,,,
 2026,1,2026_01_SF_LA,,SF,LA,Claude,SF,60.0,"The 49ers have consistently been the superior team in this NFC West rivalry with deeper talent and coaching, though division games are always competitive."
-2026,1,2026_01_SF_LA,,SF,LA,Clayton,LA,50,
+2026,1,2026_01_SF_LA,,SF,LA,Clayton,LA,50.0,
 2026,1,2026_01_SF_LA,,SF,LA,JMack,SF,50.0,
 2026,1,2026_01_TB_CIN,,TB,CIN,CMac,,,
 2026,1,2026_01_TB_CIN,,TB,CIN,Claude,CIN,60.0,Cincinnati's home advantage and Joe Burrow's talent give the Bengals a slight edge over Tampa Bay in a competitive matchup.
