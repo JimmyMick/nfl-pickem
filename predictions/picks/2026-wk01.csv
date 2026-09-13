@@ -1,43 +1,43 @@
 season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,1,2026_01_ARI_LAC,,ARI,LAC,CMac,,,
 2026,1,2026_01_ARI_LAC,,ARI,LAC,Claude,LAC,62.0,"The Chargers playing at home in a controlled environment should handle an Arizona team that has been rebuilding, giving LAC a modest edge."
-2026,1,2026_01_ARI_LAC,,ARI,LAC,Clayton,,,
+2026,1,2026_01_ARI_LAC,,ARI,LAC,Clayton,LAC,50.0,
 2026,1,2026_01_ARI_LAC,,ARI,LAC,JMack,LAC,59.0,
 2026,1,2026_01_ATL_PIT,,ATL,PIT,CMac,,,
 2026,1,2026_01_ATL_PIT,,ATL,PIT,Claude,PIT,60.0,Pittsburgh's home-field advantage and historically strong defensive identity give them a slight edge over Atlanta in a Week 1 opener.
-2026,1,2026_01_ATL_PIT,,ATL,PIT,Clayton,,,
+2026,1,2026_01_ATL_PIT,,ATL,PIT,Clayton,PIT,50.0,
 2026,1,2026_01_ATL_PIT,,ATL,PIT,JMack,ATL,56.0,
 2026,1,2026_01_BAL_IND,,BAL,IND,CMac,,,
 2026,1,2026_01_BAL_IND,,BAL,IND,Claude,BAL,65.0,Baltimore's overall roster strength and Lamar Jackson's dual-threat ability make them the clear favorite even on the road in Indianapolis.
-2026,1,2026_01_BAL_IND,,BAL,IND,Clayton,,,
+2026,1,2026_01_BAL_IND,,BAL,IND,Clayton,BAL,50.0,
 2026,1,2026_01_BAL_IND,,BAL,IND,JMack,BAL,57.0,
 2026,1,2026_01_BUF_HOU,,BUF,HOU,CMac,,,
 2026,1,2026_01_BUF_HOU,,BUF,HOU,Claude,BUF,62.0,"Buffalo remains one of the AFC's elite teams with Josh Allen leading the offense, giving them the edge despite the hostile Houston environment and heat."
-2026,1,2026_01_BUF_HOU,,BUF,HOU,Clayton,,,
+2026,1,2026_01_BUF_HOU,,BUF,HOU,Clayton,BUF,50.0,
 2026,1,2026_01_BUF_HOU,,BUF,HOU,JMack,BUF,61.0,
 2026,1,2026_01_CHI_CAR,,CHI,CAR,CMac,,,
 2026,1,2026_01_CHI_CAR,,CHI,CAR,Claude,CHI,60.0,"Chicago should have the more developed roster heading into 2026, making them slight favorites even on the road against a rebuilding Carolina team."
-2026,1,2026_01_CHI_CAR,,CHI,CAR,Clayton,,,
+2026,1,2026_01_CHI_CAR,,CHI,CAR,Clayton,CAR,50.0,
 2026,1,2026_01_CHI_CAR,,CHI,CAR,JMack,CHI,58.0,
 2026,1,2026_01_CLE_JAX,,CLE,JAX,CMac,,,
 2026,1,2026_01_CLE_JAX,,CLE,JAX,Claude,JAX,58.0,"Jacksonville at home in warm weather suits their style, and both teams are in similar rebuilding phases, but home field tips this coin flip toward the Jaguars."
-2026,1,2026_01_CLE_JAX,,CLE,JAX,Clayton,,,
+2026,1,2026_01_CLE_JAX,,CLE,JAX,Clayton,JAX,50.0,
 2026,1,2026_01_CLE_JAX,,CLE,JAX,JMack,JAX,67.0,
 2026,1,2026_01_DAL_NYG,,DAL,NYG,CMac,,,
 2026,1,2026_01_DAL_NYG,,DAL,NYG,Claude,DAL,62.0,Dallas has generally been the more talented team in this NFC East rivalry and should handle a Giants squad that has been in rebuild mode.
-2026,1,2026_01_DAL_NYG,,DAL,NYG,Clayton,,,
+2026,1,2026_01_DAL_NYG,,DAL,NYG,Clayton,DAL,50.0,
 2026,1,2026_01_DAL_NYG,,DAL,NYG,JMack,DAL,62.0,
 2026,1,2026_01_DEN_KC,,DEN,KC,CMac,,,
 2026,1,2026_01_DEN_KC,,DEN,KC,Claude,KC,70.0,"Kansas City's dynasty-level continuity, Patrick Mahomes, and home-field advantage in Arrowhead make them heavy favorites over Denver in this AFC West division game."
-2026,1,2026_01_DEN_KC,,DEN,KC,Clayton,,,
+2026,1,2026_01_DEN_KC,,DEN,KC,Clayton,DEN,50.0,
 2026,1,2026_01_DEN_KC,,DEN,KC,JMack,DEN,52.0,
 2026,1,2026_01_GB_MIN,,GB,MIN,CMac,,,
 2026,1,2026_01_GB_MIN,,GB,MIN,Claude,MIN,58.0,Minnesota's indoor home advantage and strong recent roster construction make this a slight edge for the Vikings in a tight NFC North division opener.
-2026,1,2026_01_GB_MIN,,GB,MIN,Clayton,,,
+2026,1,2026_01_GB_MIN,,GB,MIN,Clayton,GB,50.0,
 2026,1,2026_01_GB_MIN,,GB,MIN,JMack,MIN,56.0,
 2026,1,2026_01_MIA_LV,,MIA,LV,CMac,,,
 2026,1,2026_01_MIA_LV,,MIA,LV,Claude,MIA,60.0,Miami's offensive firepower with Tua and their skill position talent gives them a slight edge over a Las Vegas team that has been in transition.
-2026,1,2026_01_MIA_LV,,MIA,LV,Clayton,,,
+2026,1,2026_01_MIA_LV,,MIA,LV,Clayton,LV,50.0,
 2026,1,2026_01_MIA_LV,,MIA,LV,JMack,MIA,57.0,
 2026,1,2026_01_NE_SEA,,NE,SEA,CMac,NE,59.0,
 2026,1,2026_01_NE_SEA,,NE,SEA,Claude,SEA,62.0,Seattle's home-field advantage at Lumen Field and generally stronger roster outlook gives them the edge over a rebuilding New England squad.
@@ -45,11 +45,11 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,1,2026_01_NE_SEA,,NE,SEA,JMack,SEA,51.0,
 2026,1,2026_01_NO_DET,,NO,DET,CMac,,,
 2026,1,2026_01_NO_DET,,NO,DET,Claude,DET,65.0,Detroit has emerged as one of the NFC's premier teams with a dominant offensive line and home-field advantage in a controlled dome environment.
-2026,1,2026_01_NO_DET,,NO,DET,Clayton,,,
+2026,1,2026_01_NO_DET,,NO,DET,Clayton,DET,50.0,
 2026,1,2026_01_NO_DET,,NO,DET,JMack,DET,55.0,
 2026,1,2026_01_NYJ_TEN,,NYJ,TEN,CMac,,,
 2026,1,2026_01_NYJ_TEN,,NYJ,TEN,Claude,NYJ,58.0,"The Jets should have the more complete roster, though Tennessee at home in extreme heat could neutralize some of New York's advantages."
-2026,1,2026_01_NYJ_TEN,,NYJ,TEN,Clayton,,,
+2026,1,2026_01_NYJ_TEN,,NYJ,TEN,Clayton,NYJ,50.0,
 2026,1,2026_01_NYJ_TEN,,NYJ,TEN,JMack,NYJ,57.0,
 2026,1,2026_01_SF_LA,,SF,LA,CMac,,,
 2026,1,2026_01_SF_LA,,SF,LA,Claude,SF,60.0,"The 49ers have consistently been the superior team in this NFC West rivalry with deeper talent and coaching, though division games are always competitive."
@@ -57,9 +57,9 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,1,2026_01_SF_LA,,SF,LA,JMack,SF,50.0,
 2026,1,2026_01_TB_CIN,,TB,CIN,CMac,,,
 2026,1,2026_01_TB_CIN,,TB,CIN,Claude,CIN,60.0,Cincinnati's home advantage and Joe Burrow's talent give the Bengals a slight edge over Tampa Bay in a competitive matchup.
-2026,1,2026_01_TB_CIN,,TB,CIN,Clayton,,,
+2026,1,2026_01_TB_CIN,,TB,CIN,Clayton,CIN,50.0,
 2026,1,2026_01_TB_CIN,,TB,CIN,JMack,CIN,53.0,
 2026,1,2026_01_WAS_PHI,,WAS,PHI,CMac,,,
 2026,1,2026_01_WAS_PHI,,WAS,PHI,Claude,PHI,65.0,Philadelphia remains the class of the NFC East with superior talent and home-field advantage making them clear favorites in this division opener.
-2026,1,2026_01_WAS_PHI,,WAS,PHI,Clayton,,,
+2026,1,2026_01_WAS_PHI,,WAS,PHI,Clayton,PHI,50.0,
 2026,1,2026_01_WAS_PHI,,WAS,PHI,JMack,PHI,61.0,
