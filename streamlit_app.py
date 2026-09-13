@@ -380,12 +380,19 @@ def render_preview(preview: pd.DataFrame) -> None:
                "Play study. Preview tool, not a betting signal.")
 
 
-def _schedule_rows(sched: pd.DataFrame) -> pd.DataFrame:
-    """Shape a raw schedule frame into a display table (Date / Matchup / Result)."""
+def _schedule_rows(sched: pd.DataFrame, tz: "ZoneInfo | None" = None) -> pd.DataFrame:
+    """Shape a raw schedule frame into a display table (Date / Matchup / Result).
+
+    ``tz`` (the viewer's timezone) localizes the kickoff time in the Date column;
+    without a gametime it falls back to the date alone.
+    """
+    tz = tz or _ET
     df = sched.copy()
     df["week"] = pd.to_numeric(df["week"], errors="coerce").astype("Int64")
-    day = pd.to_datetime(df.get("gameday"), errors="coerce")
-    df["Date"] = day.dt.strftime("%a %b %d")
+    gt = df.get("gametime")
+    df["Date"] = [
+        _kickoff_label(gd, gt.iloc[i] if gt is not None else None, tz)
+        for i, gd in enumerate(df.get("gameday"))]
     df["Matchup"] = df["away_team"].astype(str) + " @ " + df["home_team"].astype(str)
 
     aw = pd.to_numeric(df.get("away_score"), errors="coerce")
@@ -439,7 +446,8 @@ def render_schedule(sched: pd.DataFrame | None, season) -> None:
         st.info("Schedule hasn't been published yet.")
         return
 
-    df, played = _schedule_rows(sched)
+    tz = _user_tz()
+    df, played = _schedule_rows(sched, tz)
     weeks = sorted(int(w) for w in df["week"].dropna().unique())
     upcoming = [w for w in weeks if not played[df["week"] == w].all()]
     default_week = upcoming[0] if upcoming else (weeks[-1] if weeks else 1)
@@ -458,12 +466,15 @@ def render_schedule(sched: pd.DataFrame | None, season) -> None:
     })
     st.dataframe(show, width="stretch", hide_index=True, column_config={
         **MATCHUP_CFG,
+        "Date": st.column_config.TextColumn("Date", width="medium"),
         "Moneyline": st.column_config.TextColumn("Moneyline", width="medium"),
         "Result": st.column_config.TextColumn("Result", width="large"),
     })
     n_played = int(played[view.index].sum())
-    st.caption(f"{len(view)} games · {n_played} played · odds are the latest "
-               "published market line · results fill in as the weekly runs refresh.")
+    tzname = dt.datetime.now(tz).strftime("%Z") or "ET"
+    st.caption(f"{len(view)} games · {n_played} played · kickoff times in **your "
+               f"timezone ({tzname})** · odds are the latest published market line "
+               "· results fill in as the weekly runs refresh.")
 
 
 def render_playoff_odds(sim, sim_history, meta, season, sim_market=None) -> None:
@@ -888,6 +899,28 @@ def render_open_ai_picks(meta: dict) -> None:
 # just tonight's game and genuinely leave the rest open.
 NO_PICK = "— no pick yet —"
 _ET = ZoneInfo("America/New_York")
+
+
+def _user_tz() -> ZoneInfo:
+    """The viewer's browser timezone (via st.context), falling back to ET."""
+    try:
+        name = getattr(st.context, "timezone", None)
+        if name:
+            return ZoneInfo(name)
+    except Exception:  # noqa: BLE001 — unknown tz name / no context
+        pass
+    return _ET
+
+
+def _kickoff_label(gameday, gametime, tz: ZoneInfo) -> str:
+    """'Sun Sep 14, 12:00 PM CDT' in ``tz`` — or just the date if no kickoff time."""
+    ko = _kickoff(gameday, gametime)
+    if ko is None:
+        d = pd.to_datetime(gameday, errors="coerce")
+        return d.strftime("%a %b %d") if pd.notna(d) else "—"
+    local = ko.astimezone(tz)
+    hour = local.strftime("%I").lstrip("0") or "12"   # 12h, no leading zero
+    return local.strftime(f"%a %b %d, {hour}:%M %p %Z")
 
 
 def _kickoff(gameday, gametime) -> dt.datetime | None:

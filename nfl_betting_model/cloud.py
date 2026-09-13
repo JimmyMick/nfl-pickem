@@ -56,7 +56,7 @@ PREVIEW_COLS = [
 # Full-season matchup schedule (dependency-light; no model output). Scores stay
 # blank for unplayed games and fill in as the weekly runs refresh the artifact.
 SCHEDULE_COLS = [
-    "week", "game_type", "gameday", "away_team", "home_team",
+    "week", "game_type", "gameday", "gametime", "away_team", "home_team",
     "away_score", "home_score",
     "spread_line", "total_line", "away_moneyline", "home_moneyline",
 ]
