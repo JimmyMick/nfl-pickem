@@ -186,6 +186,45 @@ def _topn_correct(g: pd.DataFrame, n: int) -> pd.Series:
     return pd.concat(parts)["model_correct"]
 
 
+def _disagreement_bet(row) -> tuple[str, bool]:
+    """The model's side of a model-vs-market gap (the team the model is higher on
+    than the market — the paper play), and whether it won straight up."""
+    bet_home = (row["model_home_prob"] - row["market_home_prob"]) >= 0
+    team = row["home_team"] if bet_home else row["away_team"]
+    won = bool(row["winner"] == team) if pd.notna(row.get("winner")) else False
+    return team, won
+
+
+def _top_disagreements(g: pd.DataFrame) -> pd.DataFrame:
+    """Each week's single biggest model-vs-market gap — the model's side (the
+    paper play) vs the actual result."""
+    g = g.assign(_edge=(g["model_home_prob"] - g["market_home_prob"]).abs())
+    rows = []
+    for wk, grp in g.groupby("week"):
+        r = grp.loc[grp["_edge"].idxmax()]
+        team, won = _disagreement_bet(r)
+        rows.append({
+            "Week": str(int(wk)),
+            **matchup_frame([r["away_team"]], [r["home_team"]]),
+            "  ": teams_mod.logo(team), "Model side": team,
+            "Edge": f"+{r['_edge']:.0%}",
+            "   ": teams_mod.logo(r["winner"]) if pd.notna(r["winner"]) else None,
+            "Actual": r["winner"],
+            "Result": "✓" if won else "✗",
+        })
+    return pd.DataFrame(rows)
+
+
+def _topn_disagreement_correct(g: pd.DataFrame, n: int) -> pd.Series:
+    """Won/lost for the model's side of the n biggest gaps in each week."""
+    g = g.assign(_edge=(g["model_home_prob"] - g["market_home_prob"]).abs())
+    parts = []
+    for _, grp in g.groupby("week"):
+        top = grp.sort_values("_edge", ascending=False).head(n)
+        parts.append(top.apply(lambda r: _disagreement_bet(r)[1], axis=1))
+    return pd.concat(parts)
+
+
 def _weekly_summary(g: pd.DataFrame) -> pd.DataFrame:
     rows = []
     for wk, grp in g.groupby("week"):
@@ -298,6 +337,18 @@ def render_tracker(graded: pd.DataFrame) -> None:
         ).properties(height=320)
     )
     st.altair_chart(line, width="stretch")
+
+    st.subheader("Biggest model-vs-market disagreements (paper play)")
+    dis = _top_disagreements(graded)
+    g1, g3 = st.columns(2)
+    g1.metric("Biggest gap record", _record(dis["Result"] == "✓"))
+    g3.metric("Top-3 gaps record", _record(_topn_disagreement_correct(graded, 3)))
+    st.dataframe(dis, width="stretch", hide_index=True,
+                 column_config=logo_cfg("", " ", "  ", "   "))
+    st.caption("Each week's single largest model-vs-market gap — we back the "
+               "model's side (the paper play) and track how it ended up. The "
+               "Top-3 record pools the model's side of the three biggest gaps "
+               "each week.")
 
     st.subheader("Top pick of the week (most confident)")
     top = _top_picks(graded)
