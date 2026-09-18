@@ -848,11 +848,15 @@ def render_spread_divergence(ledger: pd.DataFrame) -> None:
             cum=settled["profit"].fillna(0).cumsum())
         line = (
             alt.Chart(settled).mark_line(point=True).encode(
-                x=alt.X("n:Q", title="settled bet #"),
-                y=alt.Y("cum:Q", title="Cumulative units"),
+                x=alt.X("n:Q", title="bet # (chronological)"),
+                y=alt.Y("cum:Q", title="Cumulative units won/lost"),
                 tooltip=[alt.Tooltip("cum:Q", title="Units", format="+.1f")],
-            ).properties(height=240))
+            ).properties(height=240, title="Running profit (settled bets)"))
         st.altair_chart(line, width="stretch")
+        st.caption("Each point is one **settled** bet; the line is total units "
+                   "won/lost so far (flat 10u at -110 → a win ≈ +9.1u, a loss "
+                   "-10u). The axis counts bets in order, **not** weeks — several "
+                   "bets post per week, so one week can add several points.")
 
     rows = []
     for _, r in led.iterrows():
