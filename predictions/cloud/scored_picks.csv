@@ -62,3 +62,51 @@ CMac,2026_01_WAS_PHI,1,PHI,WAS,PHI,1,0.5,1.0,PHI,1,
 Claude,2026_01_WAS_PHI,1,PHI,WAS,PHI,1,0.65,1.0,PHI,1,Philadelphia remains the class of the NFC East with superior talent and home-field advantage making them clear favorites in this division opener.
 Clayton,2026_01_WAS_PHI,1,PHI,WAS,PHI,1,0.5,1.0,PHI,1,
 JMack,2026_01_WAS_PHI,1,PHI,WAS,PHI,1,0.61,1.0,PHI,1,
+CMac,2026_02_CAR_ATL,2,ATL,CAR,CAR,1,0.5,0.0,CAR,0,
+Claude,2026_02_CAR_ATL,2,ATL,CAR,ATL,0,0.63,0.0,CAR,0,"Atlanta at home in a division game against a Carolina team that was blown out 59-37 in Week 1, making the Falcons the more credible option despite their own loss."
+Clayton,2026_02_CAR_ATL,2,ATL,CAR,CAR,1,0.5,0.0,CAR,0,
+JMack,2026_02_CAR_ATL,2,ATL,CAR,ATL,0,0.53,0.0,CAR,0,
+CMac,2026_02_CIN_HOU,2,HOU,CIN,CIN,1,0.5,0.0,CIN,0,
+Claude,2026_02_CIN_HOU,2,HOU,CIN,CIN,1,0.38,0.0,CIN,0,"Cincinnati comes in with momentum from a Week 1 win while Houston is licking wounds after a home loss to Buffalo, giving the Bengals the edge even on the road."
+Clayton,2026_02_CIN_HOU,2,HOU,CIN,CIN,1,0.5,0.0,CIN,0,
+JMack,2026_02_CIN_HOU,2,HOU,CIN,CIN,1,0.44999999999999996,0.0,CIN,0,
+CMac,2026_02_CLE_TB,2,TB,CLE,TB,0,0.56,0.0,CLE,0,
+Claude,2026_02_CLE_TB,2,TB,CLE,TB,0,0.6,0.0,CLE,0,Tampa Bay at home is the slight edge here; both teams are 0-1 but Cleveland's blowout loss to Jacksonville is more concerning than Tampa's close road loss at Cincinnati.
+Clayton,2026_02_CLE_TB,2,TB,CLE,TB,0,0.5,0.0,CLE,0,
+JMack,2026_02_CLE_TB,2,TB,CLE,TB,0,0.63,0.0,CLE,0,
+CMac,2026_02_DET_BUF,2,BUF,DET,BUF,1,0.57,1.0,BUF,1,
+Claude,2026_02_DET_BUF,2,BUF,DET,BUF,1,0.58,1.0,BUF,1,"Buffalo at home with a strong offensive showing in Week 1, and Highmark Stadium provides a meaningful home-field advantage in what should be a close matchup against a healthy Lions squad."
+Clayton,2026_02_DET_BUF,2,BUF,DET,BUF,1,0.5,1.0,BUF,1,
+JMack,2026_02_DET_BUF,2,BUF,DET,BUF,1,0.56,1.0,BUF,1,
+CMac,2026_02_GB_NYJ,2,NYJ,GB,GB,1,0.43000000000000005,0.0,GB,1,
+Claude,2026_02_GB_NYJ,2,NYJ,GB,NYJ,0,0.62,0.0,GB,1,"New York Jets are at home, coming off a convincing 23-10 win, while Green Bay was blown out by Minnesota in Week 1 and must now travel."
+Clayton,2026_02_GB_NYJ,2,NYJ,GB,NYJ,0,0.5,0.0,GB,1,
+JMack,2026_02_GB_NYJ,2,NYJ,GB,NYJ,0,0.54,0.0,GB,1,
+CMac,2026_02_JAX_DEN,2,DEN,JAX,JAX,0,0.5,1.0,DEN,1,
+Claude,2026_02_JAX_DEN,2,DEN,JAX,JAX,0,0.38,1.0,DEN,1,"Jacksonville looked dominant in a 34-10 blowout of Cleveland while Denver was itself blown out by KC, and JAX's momentum and overall performance edge out Denver's home-field altitude advantage."
+Clayton,2026_02_JAX_DEN,2,DEN,JAX,DEN,1,0.5,1.0,DEN,1,
+JMack,2026_02_JAX_DEN,2,DEN,JAX,JAX,0,0.43999999999999995,1.0,DEN,1,
+CMac,2026_02_LV_LAC,2,LAC,LV,LAC,0,0.5,0.0,LV,0,
+Claude,2026_02_LV_LAC,2,LAC,LV,LV,1,0.4,0.0,LV,0,"Las Vegas won convincingly in Week 1 while the Chargers lost at home to Arizona, and in a division rivalry the Raiders carry the better form into this indoor matchup."
+Clayton,2026_02_LV_LAC,2,LAC,LV,LAC,0,0.5,0.0,LV,0,
+JMack,2026_02_LV_LAC,2,LAC,LV,LAC,0,0.53,0.0,LV,0,
+CMac,2026_02_MIA_SF,2,SF,MIA,SF,1,0.62,1.0,SF,1,
+Claude,2026_02_MIA_SF,2,SF,MIA,SF,1,0.72,1.0,SF,1,San Francisco dominated the Rams 27-7 at home and now gets a Miami team that lost to Las Vegas in Week 1; the 49ers' home edge and superior Week 1 performance make them a clear favorite.
+Clayton,2026_02_MIA_SF,2,SF,MIA,SF,1,0.5,1.0,SF,1,
+JMack,2026_02_MIA_SF,2,SF,MIA,SF,1,0.7,1.0,SF,1,
+CMac,2026_02_MIN_CHI,2,CHI,MIN,MIN,1,0.38,0.0,MIN,0,
+Claude,2026_02_MIN_CHI,2,CHI,MIN,MIN,1,0.4,0.0,MIN,0,"Minnesota was the more impressive winner in Week 1 (39-22 vs GB) compared to Chicago's high-scoring win over a weak Carolina squad, and the Vikings' defense should travel well in this division game."
+Clayton,2026_02_MIN_CHI,2,CHI,MIN,CHI,0,0.5,0.0,MIN,0,
+JMack,2026_02_MIN_CHI,2,CHI,MIN,MIN,1,0.43999999999999995,0.0,MIN,0,
+CMac,2026_02_NO_BAL,2,BAL,NO,BAL,0,0.6,0.0,NO,0,
+Claude,2026_02_NO_BAL,2,BAL,NO,BAL,0,0.76,0.0,NO,0,Baltimore obliterated Indianapolis 41-23 on the road in Week 1 and now gets a Saints team that barely lost at Detroit; the Ravens at home are a significant step up for New Orleans.
+Clayton,2026_02_NO_BAL,2,BAL,NO,BAL,0,0.5,0.0,NO,0,
+JMack,2026_02_NO_BAL,2,BAL,NO,BAL,0,0.68,0.0,NO,0,
+CMac,2026_02_PHI_TEN,2,TEN,PHI,PHI,1,0.44999999999999996,0.0,PHI,1,
+Claude,2026_02_PHI_TEN,2,TEN,PHI,PHI,1,0.30000000000000004,0.0,PHI,1,Philadelphia escaped with a Week 1 win and faces a Tennessee team that was handled by the Jets; the Eagles' superior roster should assert itself on the road.
+Clayton,2026_02_PHI_TEN,2,TEN,PHI,PHI,1,0.5,0.0,PHI,1,
+JMack,2026_02_PHI_TEN,2,TEN,PHI,PHI,1,0.38,0.0,PHI,1,
+CMac,2026_02_PIT_NE,2,NE,PIT,NE,1,0.5,1.0,NE,1,
+Claude,2026_02_PIT_NE,2,NE,PIT,PIT,0,0.35,1.0,NE,1,"Pittsburgh won a tight game in Week 1 while New England barely edged Seattle 13-10 at home, and the Steelers' defense should be able to control a limited Patriots offense."
+Clayton,2026_02_PIT_NE,2,NE,PIT,NE,1,0.5,1.0,NE,1,
+JMack,2026_02_PIT_NE,2,NE,PIT,NE,1,0.57,1.0,NE,1,
