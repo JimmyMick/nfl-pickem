@@ -82,6 +82,10 @@ CMac,2026_02_GB_NYJ,2,NYJ,GB,GB,1,0.43000000000000005,0.0,GB,1,
 Claude,2026_02_GB_NYJ,2,NYJ,GB,NYJ,0,0.62,0.0,GB,1,"New York Jets are at home, coming off a convincing 23-10 win, while Green Bay was blown out by Minnesota in Week 1 and must now travel."
 Clayton,2026_02_GB_NYJ,2,NYJ,GB,NYJ,0,0.5,0.0,GB,1,
 JMack,2026_02_GB_NYJ,2,NYJ,GB,NYJ,0,0.54,0.0,GB,1,
+CMac,2026_02_IND_KC,2,KC,IND,KC,1,0.59,1.0,KC,1,
+Claude,2026_02_IND_KC,2,KC,IND,KC,1,0.78,1.0,KC,1,"Kansas City dominated Denver 31-10 at home in Week 1 and Indianapolis was blown out by Baltimore, making Arrowhead a very difficult place for the struggling Colts."
+Clayton,2026_02_IND_KC,2,KC,IND,KC,1,0.5,1.0,KC,1,
+JMack,2026_02_IND_KC,2,KC,IND,KC,1,0.65,1.0,KC,1,
 CMac,2026_02_JAX_DEN,2,DEN,JAX,JAX,0,0.5,1.0,DEN,1,
 Claude,2026_02_JAX_DEN,2,DEN,JAX,JAX,0,0.38,1.0,DEN,1,"Jacksonville looked dominant in a 34-10 blowout of Cleveland while Denver was itself blown out by KC, and JAX's momentum and overall performance edge out Denver's home-field altitude advantage."
 Clayton,2026_02_JAX_DEN,2,DEN,JAX,DEN,1,0.5,1.0,DEN,1,
@@ -110,3 +114,11 @@ CMac,2026_02_PIT_NE,2,NE,PIT,NE,1,0.5,1.0,NE,1,
 Claude,2026_02_PIT_NE,2,NE,PIT,PIT,0,0.35,1.0,NE,1,"Pittsburgh won a tight game in Week 1 while New England barely edged Seattle 13-10 at home, and the Steelers' defense should be able to control a limited Patriots offense."
 Clayton,2026_02_PIT_NE,2,NE,PIT,NE,1,0.5,1.0,NE,1,
 JMack,2026_02_PIT_NE,2,NE,PIT,NE,1,0.57,1.0,NE,1,
+CMac,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.4,0.0,SEA,1,
+Claude,2026_02_SEA_ARI,2,ARI,SEA,ARI,0,0.58,0.0,SEA,1,Arizona looked solid beating the Chargers on the road in Week 1 and gets a home division game against a Seattle team that won a low-scoring grinder; ARI's home field and offensive momentum give them a slight edge.
+Clayton,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.5,0.0,SEA,1,
+JMack,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.30000000000000004,0.0,SEA,1,
+CMac,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,
+Claude,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,Dallas at home in a division rivalry is a slight lean despite both teams being 0-1; AT&T Stadium and home-field familiarity give the Cowboys a marginal edge over Washington.
+Clayton,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.5,1.0,DAL,1,
+JMack,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,
