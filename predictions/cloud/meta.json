@@ -9,12 +9,12 @@
   "schedule_season": 2026,
   "schedule_generated_at": "2026-09-22T11:14:07+00:00",
   "sim_season": 2026,
-  "sim_through_week": 1,
-  "sim_generated_at": "2026-09-15T14:47:42+00:00",
+  "sim_through_week": 2,
+  "sim_generated_at": "2026-09-22T20:19:01+00:00",
   "sim_market_season": 2026,
-  "sim_market_through_week": 1,
+  "sim_market_through_week": 2,
   "sim_market_weight": 0.5,
-  "sim_market_generated_at": "2026-09-15T14:47:45+00:00",
+  "sim_market_generated_at": "2026-09-22T20:19:04+00:00",
   "unit_elo_season": 2026,
   "unit_elo_generated_at": "2026-09-19T21:18:40+00:00"
 }
