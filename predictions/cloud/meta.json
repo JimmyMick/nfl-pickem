@@ -4,10 +4,10 @@
   "grade_generated_at": "2026-09-22T11:14:07+00:00",
   "has_picks": true,
   "preview_season": 2026,
-  "preview_week": 2,
-  "preview_generated_at": "2026-09-19T21:18:40+00:00",
+  "preview_week": 3,
+  "preview_generated_at": "2026-09-24T12:39:03+00:00",
   "schedule_season": 2026,
-  "schedule_generated_at": "2026-09-22T11:14:07+00:00",
+  "schedule_generated_at": "2026-09-24T12:39:03+00:00",
   "sim_season": 2026,
   "sim_through_week": 2,
   "sim_generated_at": "2026-09-22T20:19:01+00:00",
@@ -16,5 +16,5 @@
   "sim_market_weight": 0.5,
   "sim_market_generated_at": "2026-09-22T20:19:04+00:00",
   "unit_elo_season": 2026,
-  "unit_elo_generated_at": "2026-09-19T21:18:40+00:00"
+  "unit_elo_generated_at": "2026-09-24T12:39:03+00:00"
 }
