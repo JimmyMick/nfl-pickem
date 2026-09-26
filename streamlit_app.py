@@ -25,6 +25,7 @@ from sklearn.metrics import brier_score_loss, log_loss
 
 from nfl_betting_model import (
     cloud, paper as paper_mod, paper_spread as paper_spread_mod,
+    paper_nonelo as paper_nonelo_mod,
     picks as picks_mod, sb_futures, submit as submit_mod, teams as teams_mod)
 
 st.set_page_config(page_title="NFL model — leaderboard", page_icon="🏈",
@@ -808,6 +809,63 @@ def render_paper(ledger: pd.DataFrame) -> None:
                "the forward record.")
 
     render_spread_divergence(paper_spread_mod.load_ledger())
+    render_nonelo(paper_nonelo_mod.load_ledger())
+
+
+def render_nonelo(ledger: pd.DataFrame) -> None:
+    """Third forward tracker: the non-Elo substitute of the top-1 play — back
+    the biggest disagreement whose driver isn't Elo (skip the Elo-driven top-1).
+    Validated ~+23% ROI in walk-forward backtest; tracked forward to confirm."""
+    st.divider()
+    st.subheader("🧪 Non-Elo substitute — the refined top-1")
+    st.caption("Same one-play-a-week cadence as the top-1 above, but when the "
+               "week's biggest model-vs-market gap is **Elo-driven** (backward-"
+               "looking, the market usually has newer info) it backs the biggest "
+               "**non-Elo** disagreement instead. Elo-driven top-1 plays were dead "
+               "money in backtest; skipping them roughly doubled ROI — tracked "
+               "forward here to see if it holds.")
+    if ledger is None or ledger.empty:
+        st.info("No non-Elo plays logged yet. They post with the weekly preview "
+                "and settle the following week.")
+        return
+    s = paper_nonelo_mod.summary(ledger)
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Record", f"{s['wins']}-{s['losses']}")
+    c2.metric("Profit", f"{s['profit']:+.1f}u")
+    c3.metric("ROI", f"{s['roi']:+.1%}" if s["bets"] else "—")
+    c4.metric("Open", s["open"])
+
+    led = ledger.sort_values(["season", "week"]).copy()
+    settled = led[led["result"].isin(["win", "loss"])]
+    if not settled.empty:
+        settled = settled.assign(n=range(1, len(settled) + 1),
+                                 cum=settled["profit"].fillna(0).cumsum())
+        line = (alt.Chart(settled).mark_line(point=True).encode(
+            x=alt.X("n:Q", title="bet # (chronological)"),
+            y=alt.Y("cum:Q", title="Cumulative units won/lost"),
+            tooltip=[alt.Tooltip("cum:Q", title="Units", format="+.1f")],
+        ).properties(height=240, title="Running profit (settled bets)"))
+        st.altair_chart(line, width="stretch")
+
+    rows = []
+    for _, r in led.iterrows():
+        if r["result"] == "win":
+            res = f"✓ +{float(r['profit']):.1f}u"
+        elif r["result"] == "loss":
+            res = f"✗ {float(r['profit']):.1f}u"
+        elif r["result"] == "no_price":
+            res = "no price"
+        else:
+            res = "open"
+        rows.append({
+            "Week": int(r["week"]), "": teams_mod.logo(r["model_side"]),
+            "Play": r["model_side"],
+            "Matchup": f"{r['away_team']} @ {r['home_team']}",
+            "Edge": f"+{abs(float(r['edge'])):.0%}" if pd.notna(r["edge"]) else "—",
+            "Price": f"{float(r['price_ml']):+.0f}" if pd.notna(r["price_ml"]) else "—",
+            "Result": res})
+    st.dataframe(pd.DataFrame(rows), width="stretch", hide_index=True,
+                 column_config=logo_cfg(""))
 
 
 def render_spread_divergence(ledger: pd.DataFrame) -> None:
