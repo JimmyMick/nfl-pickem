@@ -26,7 +26,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,3,2026_03_CIN_PIT,,CIN,PIT,CMac,CIN,50.0,
 2026,3,2026_03_CIN_PIT,,CIN,PIT,Clayton,CIN,50.0,
 2026,3,2026_03_CIN_PIT,2026-09-27,CIN,PIT,Eman,,,
-2026,3,2026_03_CIN_PIT,,CIN,PIT,JMack,CIN,54.0,
+2026,3,2026_03_CIN_PIT,,CIN,PIT,JMack,PIT,54.0,
 2026,3,2026_03_CIN_PIT,2026-09-27,CIN,PIT,Mike,,,
 2026,3,2026_03_CIN_PIT,2026-09-27,CIN,PIT,Tunk,,,
 2026,3,2026_03_HOU_IND,,HOU,IND,CMac,HOU,50.0,
@@ -92,7 +92,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,3,2026_03_TEN_NYG,,TEN,NYG,CMac,NYG,50.0,
 2026,3,2026_03_TEN_NYG,,TEN,NYG,Clayton,TEN,50.0,
 2026,3,2026_03_TEN_NYG,2026-09-27,TEN,NYG,Eman,,,
-2026,3,2026_03_TEN_NYG,,TEN,NYG,JMack,TEN,50.0,
+2026,3,2026_03_TEN_NYG,,TEN,NYG,JMack,NYG,50.0,
 2026,3,2026_03_TEN_NYG,2026-09-27,TEN,NYG,Mike,,,
 2026,3,2026_03_TEN_NYG,2026-09-27,TEN,NYG,Tunk,,,
 2026,3,2026_03_ARI_SF,,ARI,SF,Claude,SF,72,SF is 2-0 and dominant despite losing Bosa; ARI's offense looked terrible in a 7-31 loss to Seattle and SF's home field advantage plus overall roster depth makes them clear favorites.
