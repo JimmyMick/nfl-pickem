@@ -95,3 +95,19 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,3,2026_03_TEN_NYG,,TEN,NYG,JMack,TEN,50.0,
 2026,3,2026_03_TEN_NYG,2026-09-27,TEN,NYG,Mike,,,
 2026,3,2026_03_TEN_NYG,2026-09-27,TEN,NYG,Tunk,,,
+2026,3,2026_03_ARI_SF,,ARI,SF,Claude,SF,72,SF is 2-0 and dominant despite losing Bosa; ARI's offense looked terrible in a 7-31 loss to Seattle and SF's home field advantage plus overall roster depth makes them clear favorites.
+2026,3,2026_03_ATL_GB,,ATL,GB,Claude,GB,68,"ATL is 0-2 and was demolished by Carolina; GB at home is the safer pick despite missing Jayden Reed and two OL starters, as Atlanta's offense has been historically bad this season."
+2026,3,2026_03_BAL_DAL,,BAL,DAL,Claude,BAL,60,BAL's offense with Lamar is hard to stop even missing Ronnie Stanley; DAL's secondary is decimated with three DBs out and the indoor-like dome conditions at AT&T suit Baltimore's explosive attack.
+2026,3,2026_03_CAR_CLE,,CAR,CLE,Claude,CLE,62,CLE at home with a bounce-back edge after a tough road win; CAR's defense is banged up at linebacker and Cleveland's home crowd and wind conditions should neutralize Carolina's passing game.
+2026,3,2026_03_CIN_PIT,,CIN,PIT,Claude,CIN,65,"CIN is 2-0 and rolling offensively; PIT's backfield is hurt with Dowdle out and Warren questionable, limiting their ground game in a division rivalry where Cincinnati has the clear talent edge right now."
+2026,3,2026_03_HOU_IND,,HOU,IND,Claude,IND,55,Both teams are 0-2 but HOU is missing Nico Collins and has significant OL issues; IND at home in a division game gets the slight edge in what should be a low-quality matchup.
+2026,3,2026_03_KC_MIA,,KC,MIA,Claude,KC,80,"KC is 2-0 and dominant while MIA is 0-2 and was blown out 35-13 by SF; even in Miami heat, Kansas City's superior roster and coaching make this a comfortable pick."
+2026,3,2026_03_LAC_BUF,,LAC,BUF,Claude,BUF,82,BUF is 2-0 with wins over HOU and DET while LAC is 0-2 with a potentially compromised QB situation and multiple OL injuries; Buffalo at home in wind is a strong spot.
+2026,3,2026_03_LA_DEN,,LA,DEN,Claude,DEN,60,LA is missing Puka Nacua (doubtful) which significantly limits their passing attack; DEN at home with altitude advantage and a bounce-back spot after being blown out by KC tips this to the Broncos.
+2026,3,2026_03_LV_NO,,LV,NO,Claude,LV,60,"LV is 2-0 and playing well, though Brock Bowers is questionable; NO at home indoors is always dangerous but Las Vegas's momentum and overall team quality give them the edge."
+2026,3,2026_03_MIN_TB,,MIN,TB,Claude,MIN,75,"MIN is 2-0 with a dominant defense that held CHI to 3 points; TB is 0-2 and missing key linebackers, making it hard to stop Minnesota's balanced attack."
+2026,3,2026_03_NE_JAX,,NE,JAX,Claude,JAX,60,JAX at home in warm weather with a healthy roster after a strong win over CLE; NE's win over PIT was impressive but Jacksonville's home field and talent edge them out here.
+2026,3,2026_03_NYJ_DET,,NYJ,DET,Claude,DET,65,"DET at home indoors is a dangerous spot for NYJ, which has multiple key injuries including Fitzpatrick, Mason Taylor, and a doubtful RB; Detroit's offense should bounce back after the Buffalo loss."
+2026,3,2026_03_PHI_CHI,,PHI,CHI,Claude,PHI,80,"CHI is without Caleb Williams (Out) and potentially Tyson Bagent too (Questionable, concussion), meaning they may be on their third-string QB; PHI is 2-0 and despite missing Goedert, should dominate a QB-less Chicago team."
+2026,3,2026_03_SEA_WAS,,SEA,WAS,Claude,SEA,82,"WAS is without QB Jayden Daniels (Out, Elbow) which is a massive blow; SEA is 2-0 and playing excellent defense, making this a near-lock with Washington's backup QB in bad weather."
+2026,3,2026_03_TEN_NYG,,TEN,NYG,Claude,NYG,62,"NYG at home with momentum after beating DAL; TEN is 0-2 with offensive struggles and multiple skill position injuries, while wind and rain in New Jersey should neutralize any passing advantage."
