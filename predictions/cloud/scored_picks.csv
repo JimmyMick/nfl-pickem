@@ -125,3 +125,63 @@ CMac,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,
 Claude,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,Dallas at home in a division rivalry is a slight lean despite both teams being 0-1; AT&T Stadium and home-field familiarity give the Cowboys a marginal edge over Washington.
 Clayton,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.5,1.0,DAL,1,
 JMack,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,
+CMac,2026_03_ARI_SF,3,SF,ARI,SF,1,0.5,1.0,SF,1,
+Clayton,2026_03_ARI_SF,3,SF,ARI,SF,1,0.5,1.0,SF,1,
+JMack,2026_03_ARI_SF,3,SF,ARI,SF,1,0.67,1.0,SF,1,
+CMac,2026_03_ATL_GB,3,GB,ATL,GB,0,0.5,0.0,ATL,0,
+Clayton,2026_03_ATL_GB,3,GB,ATL,GB,0,0.5,0.0,ATL,0,
+JMack,2026_03_ATL_GB,3,GB,ATL,GB,0,0.62,0.0,ATL,0,
+CMac,2026_03_BAL_DAL,3,DAL,BAL,BAL,1,0.5,0.0,BAL,1,
+Clayton,2026_03_BAL_DAL,3,DAL,BAL,BAL,1,0.5,0.0,BAL,1,
+JMack,2026_03_BAL_DAL,3,DAL,BAL,BAL,1,0.48,0.0,BAL,1,
+CMac,2026_03_CAR_CLE,3,CLE,CAR,CAR,0,0.5,1.0,CLE,1,
+Clayton,2026_03_CAR_CLE,3,CLE,CAR,CLE,1,0.5,1.0,CLE,1,
+JMack,2026_03_CAR_CLE,3,CLE,CAR,CLE,1,0.5,1.0,CLE,1,
+CMac,2026_03_CIN_PIT,3,PIT,CIN,CIN,0,0.5,1.0,PIT,0,
+Clayton,2026_03_CIN_PIT,3,PIT,CIN,CIN,0,0.5,1.0,PIT,0,
+JMack,2026_03_CIN_PIT,3,PIT,CIN,PIT,1,0.54,1.0,PIT,0,
+CMac,2026_03_HOU_IND,3,IND,HOU,HOU,0,0.5,1.0,IND,0,
+Clayton,2026_03_HOU_IND,3,IND,HOU,IND,1,0.5,1.0,IND,0,
+JMack,2026_03_HOU_IND,3,IND,HOU,HOU,0,0.45999999999999996,1.0,IND,0,
+CMac,2026_03_KC_MIA,3,MIA,KC,KC,1,0.5,0.0,KC,1,
+Clayton,2026_03_KC_MIA,3,MIA,KC,KC,1,0.5,0.0,KC,1,
+JMack,2026_03_KC_MIA,3,MIA,KC,KC,1,0.20999999999999996,0.0,KC,1,
+CMac,2026_03_LAC_BUF,3,BUF,LAC,BUF,1,0.5,1.0,BUF,1,
+Clayton,2026_03_LAC_BUF,3,BUF,LAC,BUF,1,0.5,1.0,BUF,1,
+JMack,2026_03_LAC_BUF,3,BUF,LAC,BUF,1,0.65,1.0,BUF,1,
+CMac,2026_03_LA_DEN,3,DEN,LA,LA,0,0.5,1.0,DEN,1,
+Clayton,2026_03_LA_DEN,3,DEN,LA,DEN,1,0.5,1.0,DEN,1,
+JMack,2026_03_LA_DEN,3,DEN,LA,DEN,1,0.53,1.0,DEN,1,
+CMac,2026_03_LV_NO,3,NO,LV,NO,0,0.5,0.0,LV,0,
+Clayton,2026_03_LV_NO,3,NO,LV,NO,0,0.5,0.0,LV,0,
+JMack,2026_03_LV_NO,3,NO,LV,NO,0,0.52,0.0,LV,0,
+CMac,2026_03_MIN_TB,3,TB,MIN,MIN,1,0.5,0.0,MIN,1,
+Clayton,2026_03_MIN_TB,3,TB,MIN,MIN,1,0.5,0.0,MIN,1,
+JMack,2026_03_MIN_TB,3,TB,MIN,MIN,1,0.5,0.0,MIN,1,
+CMac,2026_03_NE_JAX,3,JAX,NE,NE,0,0.5,1.0,JAX,1,
+Clayton,2026_03_NE_JAX,3,JAX,NE,JAX,1,0.5,1.0,JAX,1,
+JMack,2026_03_NE_JAX,3,JAX,NE,JAX,1,0.53,1.0,JAX,1,
+CMac,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.5,1.0,DET,1,
+Clayton,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.5,1.0,DET,1,
+JMack,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.54,1.0,DET,1,
+CMac,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.5,1.0,WAS,0,
+Clayton,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.5,1.0,WAS,0,
+JMack,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.33999999999999997,1.0,WAS,0,
+CMac,2026_03_TEN_NYG,3,NYG,TEN,NYG,1,0.5,1.0,NYG,1,
+Clayton,2026_03_TEN_NYG,3,NYG,TEN,TEN,0,0.5,1.0,NYG,1,
+JMack,2026_03_TEN_NYG,3,NYG,TEN,NYG,1,0.5,1.0,NYG,1,
+Claude,2026_03_ARI_SF,3,SF,ARI,SF,1,0.72,1.0,SF,1,SF is 2-0 and dominant despite losing Bosa; ARI's offense looked terrible in a 7-31 loss to Seattle and SF's home field advantage plus overall roster depth makes them clear favorites.
+Claude,2026_03_ATL_GB,3,GB,ATL,GB,0,0.68,0.0,ATL,0,"ATL is 0-2 and was demolished by Carolina; GB at home is the safer pick despite missing Jayden Reed and two OL starters, as Atlanta's offense has been historically bad this season."
+Claude,2026_03_BAL_DAL,3,DAL,BAL,BAL,1,0.4,0.0,BAL,1,BAL's offense with Lamar is hard to stop even missing Ronnie Stanley; DAL's secondary is decimated with three DBs out and the indoor-like dome conditions at AT&T suit Baltimore's explosive attack.
+Claude,2026_03_CAR_CLE,3,CLE,CAR,CLE,1,0.62,1.0,CLE,1,CLE at home with a bounce-back edge after a tough road win; CAR's defense is banged up at linebacker and Cleveland's home crowd and wind conditions should neutralize Carolina's passing game.
+Claude,2026_03_CIN_PIT,3,PIT,CIN,CIN,0,0.35,1.0,PIT,0,"CIN is 2-0 and rolling offensively; PIT's backfield is hurt with Dowdle out and Warren questionable, limiting their ground game in a division rivalry where Cincinnati has the clear talent edge right now."
+Claude,2026_03_HOU_IND,3,IND,HOU,IND,1,0.55,1.0,IND,0,Both teams are 0-2 but HOU is missing Nico Collins and has significant OL issues; IND at home in a division game gets the slight edge in what should be a low-quality matchup.
+Claude,2026_03_KC_MIA,3,MIA,KC,KC,1,0.19999999999999996,0.0,KC,1,"KC is 2-0 and dominant while MIA is 0-2 and was blown out 35-13 by SF; even in Miami heat, Kansas City's superior roster and coaching make this a comfortable pick."
+Claude,2026_03_LAC_BUF,3,BUF,LAC,BUF,1,0.82,1.0,BUF,1,BUF is 2-0 with wins over HOU and DET while LAC is 0-2 with a potentially compromised QB situation and multiple OL injuries; Buffalo at home in wind is a strong spot.
+Claude,2026_03_LA_DEN,3,DEN,LA,DEN,1,0.6,1.0,DEN,1,LA is missing Puka Nacua (doubtful) which significantly limits their passing attack; DEN at home with altitude advantage and a bounce-back spot after being blown out by KC tips this to the Broncos.
+Claude,2026_03_LV_NO,3,NO,LV,LV,1,0.4,0.0,LV,0,"LV is 2-0 and playing well, though Brock Bowers is questionable; NO at home indoors is always dangerous but Las Vegas's momentum and overall team quality give them the edge."
+Claude,2026_03_MIN_TB,3,TB,MIN,MIN,1,0.25,0.0,MIN,1,"MIN is 2-0 with a dominant defense that held CHI to 3 points; TB is 0-2 and missing key linebackers, making it hard to stop Minnesota's balanced attack."
+Claude,2026_03_NE_JAX,3,JAX,NE,JAX,1,0.6,1.0,JAX,1,JAX at home in warm weather with a healthy roster after a strong win over CLE; NE's win over PIT was impressive but Jacksonville's home field and talent edge them out here.
+Claude,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.65,1.0,DET,1,"DET at home indoors is a dangerous spot for NYJ, which has multiple key injuries including Fitzpatrick, Mason Taylor, and a doubtful RB; Detroit's offense should bounce back after the Buffalo loss."
+Claude,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.18000000000000005,1.0,WAS,0,"WAS is without QB Jayden Daniels (Out, Elbow) which is a massive blow; SEA is 2-0 and playing excellent defense, making this a near-lock with Washington's backup QB in bad weather."
+Claude,2026_03_TEN_NYG,3,NYG,TEN,NYG,1,0.62,1.0,NYG,1,"NYG at home with momentum after beating DAL; TEN is 0-2 with offensive struggles and multiple skill position injuries, while wind and rain in New Jersey should neutralize any passing advantage."
