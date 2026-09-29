@@ -164,6 +164,9 @@ JMack,2026_03_NE_JAX,3,JAX,NE,JAX,1,0.53,1.0,JAX,1,
 CMac,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.5,1.0,DET,1,
 Clayton,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.5,1.0,DET,1,
 JMack,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.54,1.0,DET,1,
+CMac,2026_03_PHI_CHI,3,CHI,PHI,PHI,0,0.5,1.0,CHI,1,
+Clayton,2026_03_PHI_CHI,3,CHI,PHI,PHI,0,0.5,1.0,CHI,1,
+JMack,2026_03_PHI_CHI,3,CHI,PHI,PHI,0,0.43999999999999995,1.0,CHI,1,
 CMac,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.5,1.0,WAS,0,
 Clayton,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.5,1.0,WAS,0,
 JMack,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.33999999999999997,1.0,WAS,0,
@@ -183,5 +186,6 @@ Claude,2026_03_LV_NO,3,NO,LV,LV,1,0.4,0.0,LV,0,"LV is 2-0 and playing well, thou
 Claude,2026_03_MIN_TB,3,TB,MIN,MIN,1,0.25,0.0,MIN,1,"MIN is 2-0 with a dominant defense that held CHI to 3 points; TB is 0-2 and missing key linebackers, making it hard to stop Minnesota's balanced attack."
 Claude,2026_03_NE_JAX,3,JAX,NE,JAX,1,0.6,1.0,JAX,1,JAX at home in warm weather with a healthy roster after a strong win over CLE; NE's win over PIT was impressive but Jacksonville's home field and talent edge them out here.
 Claude,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.65,1.0,DET,1,"DET at home indoors is a dangerous spot for NYJ, which has multiple key injuries including Fitzpatrick, Mason Taylor, and a doubtful RB; Detroit's offense should bounce back after the Buffalo loss."
+Claude,2026_03_PHI_CHI,3,CHI,PHI,PHI,0,0.19999999999999996,1.0,CHI,1,"CHI is without Caleb Williams (Out) and potentially Tyson Bagent too (Questionable, concussion), meaning they may be on their third-string QB; PHI is 2-0 and despite missing Goedert, should dominate a QB-less Chicago team."
 Claude,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.18000000000000005,1.0,WAS,0,"WAS is without QB Jayden Daniels (Out, Elbow) which is a massive blow; SEA is 2-0 and playing excellent defense, making this a near-lock with Washington's backup QB in bad weather."
 Claude,2026_03_TEN_NYG,3,NYG,TEN,NYG,1,0.62,1.0,NYG,1,"NYG at home with momentum after beating DAL; TEN is 0-2 with offensive struggles and multiple skill position injuries, while wind and rain in New Jersey should neutralize any passing advantage."
