@@ -189,3 +189,48 @@ Claude,2026_03_NYJ_DET,3,DET,NYJ,DET,1,0.65,1.0,DET,1,"DET at home indoors is a 
 Claude,2026_03_PHI_CHI,3,CHI,PHI,PHI,0,0.19999999999999996,1.0,CHI,1,"CHI is without Caleb Williams (Out) and potentially Tyson Bagent too (Questionable, concussion), meaning they may be on their third-string QB; PHI is 2-0 and despite missing Goedert, should dominate a QB-less Chicago team."
 Claude,2026_03_SEA_WAS,3,WAS,SEA,SEA,0,0.18000000000000005,1.0,WAS,0,"WAS is without QB Jayden Daniels (Out, Elbow) which is a massive blow; SEA is 2-0 and playing excellent defense, making this a near-lock with Washington's backup QB in bad weather."
 Claude,2026_03_TEN_NYG,3,NYG,TEN,NYG,1,0.62,1.0,NYG,1,"NYG at home with momentum after beating DAL; TEN is 0-2 with offensive struggles and multiple skill position injuries, while wind and rain in New Jersey should neutralize any passing advantage."
+Claude,2026_04_ARI_NYG,4,NYG,ARI,NYG,1,0.6,1.0,NYG,1,NYG is healthy and coming off a strong defensive showing vs TEN while Arizona has been inconsistent and lost two straight; home field and no injury concerns favor New York.
+Clayton,2026_04_ARI_NYG,4,NYG,ARI,NYG,1,0.5,1.0,NYG,1,
+JMack,2026_04_ARI_NYG,4,NYG,ARI,NYG,1,0.52,1.0,NYG,1,
+Claude,2026_04_DAL_HOU,4,HOU,DAL,DAL,1,0.35,0.0,DAL,0,"Houston is 0-3 and banged up badly on defense (Al-Shaair out, Clowney/Hall questionable) while Dallas is healthier and desperate for a win against a reeling opponent."
+Clayton,2026_04_DAL_HOU,4,HOU,DAL,DAL,1,0.5,0.0,DAL,0,
+JMack,2026_04_DAL_HOU,4,HOU,DAL,HOU,0,0.58,0.0,DAL,0,
+Claude,2026_04_DEN_SF,4,SF,DEN,SF,1,0.63,1.0,SF,1,San Francisco is 3-0 and dominant despite losing both starting DEs; Denver is a young team and the 97°F heat at home should neutralize any travel fatigue concerns while SF's offensive firepower remains intact.
+Clayton,2026_04_DEN_SF,4,SF,DEN,SF,1,0.5,1.0,SF,1,
+JMack,2026_04_DEN_SF,4,SF,DEN,DEN,0,0.49,1.0,SF,1,
+Claude,2026_04_DET_CAR,4,CAR,DET,DET,0,0.28,1.0,CAR,0,Detroit is the better team and Carolina is dealing with significant offensive line and receiver injuries; Lions should handle business on the road against a struggling Panthers squad.
+Clayton,2026_04_DET_CAR,4,CAR,DET,CAR,1,0.5,1.0,CAR,0,
+JMack,2026_04_DET_CAR,4,CAR,DET,DET,0,0.48,1.0,CAR,0,
+Claude,2026_04_GB_TB,4,TB,GB,GB,1,0.28,0.0,GB,0,"Baker Mayfield is out for Tampa Bay, which is already 0-3, making Green Bay a clear favorite despite their own O-line issues; a backup QB situation tips this decisively toward the Packers."
+Clayton,2026_04_GB_TB,4,TB,GB,GB,1,0.5,0.0,GB,0,
+JMack,2026_04_GB_TB,4,TB,GB,GB,1,0.42000000000000004,0.0,GB,0,
+Claude,2026_04_IND_WAS,4,WAS,IND,IND,1,0.25,0.0,IND,0,"Jayden Daniels is out for Washington, a massive blow to their offense; Indianapolis won last week and should handle a backup-QB Commanders team missing key skill and secondary players."
+Clayton,2026_04_IND_WAS,4,WAS,IND,IND,1,0.5,0.0,IND,0,
+JMack,2026_04_IND_WAS,4,WAS,IND,IND,1,0.48,0.0,IND,0,
+Claude,2026_04_JAX_CIN,4,CIN,JAX,CIN,0,0.62,0.0,JAX,1,Cincinnati is at home and coming off a strong two-game stretch; Jacksonville's secondary is banged up and Cincy's offense should be able to exploit that in a favorable home environment.
+Clayton,2026_04_JAX_CIN,4,CIN,JAX,JAX,1,0.5,0.0,JAX,1,
+JMack,2026_04_JAX_CIN,4,CIN,JAX,JAX,1,0.48,0.0,JAX,1,
+Claude,2026_04_KC_LV,4,LV,KC,KC,1,0.35,0.0,KC,1,"Both teams are undefeated but Kansas City's championship pedigree and offensive consistency give them the edge in a tough division road game, even with Las Vegas riding high."
+Clayton,2026_04_KC_LV,4,LV,KC,KC,1,0.5,0.0,KC,1,
+JMack,2026_04_KC_LV,4,LV,KC,KC,1,0.45999999999999996,0.0,KC,1,
+Claude,2026_04_LAC_SEA,4,SEA,LAC,SEA,1,0.78,1.0,SEA,1,"Los Angeles is 0-3 and decimated by injuries including a questionable QB situation, while Seattle is at home and has been solid defensively; this is a mismatch in Seattle's favor."
+Clayton,2026_04_LAC_SEA,4,SEA,LAC,SEA,1,0.5,1.0,SEA,1,
+JMack,2026_04_LAC_SEA,4,SEA,LAC,SEA,1,0.64,1.0,SEA,1,
+Claude,2026_04_LA_PHI,4,PHI,LA,PHI,0,0.6,0.0,LA,1,"Philadelphia is at home and despite their own injury woes, the Rams are missing Aaron Donald and key skill players; Philly's home crowd and offensive core should be enough to edge this one."
+Clayton,2026_04_LA_PHI,4,PHI,LA,LA,1,0.5,0.0,LA,1,
+JMack,2026_04_LA_PHI,4,PHI,LA,LA,1,0.42000000000000004,0.0,LA,1,
+Claude,2026_04_MIA_MIN,4,MIN,MIA,MIN,1,0.82,1.0,MIN,1,"Minnesota is 3-0, playing at home in a dome, and dominant defensively; Miami is 0-3 and struggling badly on both sides of the ball even with Jefferson out for the Vikings."
+Clayton,2026_04_MIA_MIN,4,MIN,MIA,MIN,1,0.5,1.0,MIN,1,
+JMack,2026_04_MIA_MIN,4,MIN,MIA,MIN,1,0.66,1.0,MIN,1,
+Claude,2026_04_NE_BUF,4,BUF,NE,BUF,0,0.82,0.0,NE,0,Buffalo is 3-0 and playing dominant football at home while New England is 1-2 with significant defensive injuries; this division game should be a comfortable Bills win.
+Clayton,2026_04_NE_BUF,4,BUF,NE,BUF,0,0.5,0.0,NE,0,
+JMack,2026_04_NE_BUF,4,BUF,NE,BUF,0,0.55,0.0,NE,0,
+Claude,2026_04_NYJ_CHI,4,CHI,NYJ,NYJ,0,0.35,1.0,CHI,1,"Caleb Williams is out for Chicago, a massive loss for their offense, and the Jets despite their own injuries have enough to beat a backup-QB Bears team at home in a favorable spot."
+Clayton,2026_04_NYJ_CHI,4,CHI,NYJ,NYJ,0,0.5,1.0,CHI,1,
+JMack,2026_04_NYJ_CHI,4,CHI,NYJ,CHI,1,0.52,1.0,CHI,1,
+Claude,2026_04_PIT_CLE,4,CLE,PIT,PIT,0,0.44999999999999996,1.0,CLE,0,"Division rivalry is a toss-up but Pittsburgh's defense has been stout and Cleveland's interior O-line is decimated (Elgton Jenkins and Teven Jenkins both out), limiting their run game in a tight divisional battle."
+Clayton,2026_04_PIT_CLE,4,CLE,PIT,CLE,1,0.5,1.0,CLE,0,
+JMack,2026_04_PIT_CLE,4,CLE,PIT,CLE,1,0.54,1.0,CLE,0,
+Claude,2026_04_TEN_BAL,4,BAL,TEN,BAL,1,0.8,1.0,BAL,1,Tennessee is 0-3 and has been outscored badly all season while Baltimore is at home and coming off a big road win; even with some O-line injuries the Ravens should roll.
+Clayton,2026_04_TEN_BAL,4,BAL,TEN,BAL,1,0.5,1.0,BAL,1,
+JMack,2026_04_TEN_BAL,4,BAL,TEN,BAL,1,0.55,1.0,BAL,1,
