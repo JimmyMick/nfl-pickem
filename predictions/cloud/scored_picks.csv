@@ -192,6 +192,9 @@ Claude,2026_03_TEN_NYG,3,NYG,TEN,NYG,1,0.62,1.0,NYG,1,"NYG at home with momentum
 Claude,2026_04_ARI_NYG,4,NYG,ARI,NYG,1,0.6,1.0,NYG,1,NYG is healthy and coming off a strong defensive showing vs TEN while Arizona has been inconsistent and lost two straight; home field and no injury concerns favor New York.
 Clayton,2026_04_ARI_NYG,4,NYG,ARI,NYG,1,0.5,1.0,NYG,1,
 JMack,2026_04_ARI_NYG,4,NYG,ARI,NYG,1,0.52,1.0,NYG,1,
+Claude,2026_04_ATL_NO,4,NO,ATL,ATL,1,0.42000000000000004,0.0,ATL,0,Atlanta is coming off a dominant win and NO's linebacker corps is decimated with three LBs out; the Falcons have the edge in a close division game indoors in New Orleans.
+Clayton,2026_04_ATL_NO,4,NO,ATL,ATL,1,0.5,0.0,ATL,0,
+JMack,2026_04_ATL_NO,4,NO,ATL,NO,0,0.59,0.0,ATL,0,
 Claude,2026_04_DAL_HOU,4,HOU,DAL,DAL,1,0.35,0.0,DAL,0,"Houston is 0-3 and banged up badly on defense (Al-Shaair out, Clowney/Hall questionable) while Dallas is healthier and desperate for a win against a reeling opponent."
 Clayton,2026_04_DAL_HOU,4,HOU,DAL,DAL,1,0.5,0.0,DAL,0,
 JMack,2026_04_DAL_HOU,4,HOU,DAL,HOU,0,0.58,0.0,DAL,0,
