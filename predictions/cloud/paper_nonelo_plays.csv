@@ -1,3 +1,4 @@
 season,week,game_id,away_team,home_team,model_side,bet_home,model_home_prob,market_home_prob,edge,price_ml,stake,result,profit,spread_line,spread_result,spread_profit,logged_at,settled_at
 2026.0,3.0,2026_03_KC_MIA,KC,MIA,MIA,1.0,0.3648,0.1729,0.1919,455.0,10.0,loss,-10.0,-10.0,loss,-10.0,2026-09-26T19:14:08+00:00,2026-09-28T14:07:40+00:00
 2026.0,4.0,2026_04_IND_WAS,IND,WAS,WAS,1.0,0.5577,0.3691,0.1886,160.0,10.0,loss,-10.0,-3.5,loss,-10.0,2026-10-01T12:37:37+00:00,2026-10-05T14:07:43+00:00
+2026.0,5.0,2026_05_BAL_ATL,BAL,ATL,BAL,0.0,0.2989,0.6092,-0.3103,145.0,10.0,open,,3.5,open,,2026-10-08T12:37:31+00:00,
