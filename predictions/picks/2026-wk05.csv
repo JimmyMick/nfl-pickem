@@ -80,7 +80,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,5,2026_05_SF_SEA,,SF,SEA,CMac,SEA,50.0,
 2026,5,2026_05_SF_SEA,,SF,SEA,Clayton,,,
 2026,5,2026_05_SF_SEA,2026-10-11,SF,SEA,Eman,,,
-2026,5,2026_05_SF_SEA,,SF,SEA,JMack,,,
+2026,5,2026_05_SF_SEA,,SF,SEA,JMack,SEA,50,
 2026,5,2026_05_SF_SEA,2026-10-11,SF,SEA,Mike,,,
 2026,5,2026_05_SF_SEA,2026-10-11,SF,SEA,Tunk,,,
 2026,5,2026_05_TB_DAL,,TB,DAL,CMac,DAL,50.0,
