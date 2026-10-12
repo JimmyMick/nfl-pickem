@@ -237,3 +237,55 @@ JMack,2026_04_PIT_CLE,4,CLE,PIT,CLE,1,0.54,1.0,CLE,0,
 Claude,2026_04_TEN_BAL,4,BAL,TEN,BAL,1,0.8,1.0,BAL,1,Tennessee is 0-3 and has been outscored badly all season while Baltimore is at home and coming off a big road win; even with some O-line injuries the Ravens should roll.
 Clayton,2026_04_TEN_BAL,4,BAL,TEN,BAL,1,0.5,1.0,BAL,1,
 JMack,2026_04_TEN_BAL,4,BAL,TEN,BAL,1,0.55,1.0,BAL,1,
+CMac,2026_05_BAL_ATL,5,ATL,BAL,BAL,1,0.5,0.0,BAL,1,
+Claude,2026_05_BAL_ATL,5,ATL,BAL,ATL,0,0.68,0.0,BAL,1,"Lamar Jackson is out for Baltimore, gutting their offense, while Atlanta is riding back-to-back blowout wins and has the home advantage."
+Clayton,2026_05_BAL_ATL,5,ATL,BAL,ATL,0,0.5,0.0,BAL,1,
+JMack,2026_05_BAL_ATL,5,ATL,BAL,ATL,0,0.59,0.0,BAL,1,
+CMac,2026_05_CHI_GB,5,GB,CHI,CHI,0,0.5,1.0,GB,0,
+Claude,2026_05_CHI_GB,5,GB,CHI,CHI,0,0.42000000000000004,1.0,GB,0,"Green Bay's interior offensive line is decimated with two doubtfuls and multiple questionables, and Chicago at 3-1 has the edge even with Caleb Williams questionable in a division rivalry."
+Clayton,2026_05_CHI_GB,5,GB,CHI,CHI,0,0.5,1.0,GB,0,
+JMack,2026_05_CHI_GB,5,GB,CHI,CHI,0,0.5,1.0,GB,0,
+CMac,2026_05_CIN_MIA,5,MIA,CIN,CIN,1,0.5,0.0,CIN,1,
+Claude,2026_05_CIN_MIA,5,MIA,CIN,CIN,1,0.25,0.0,CIN,1,"Miami is 0-4 and banged up across the roster while Cincinnati, even with Chase questionable, is the clearly superior team."
+Clayton,2026_05_CIN_MIA,5,MIA,CIN,CIN,1,0.5,0.0,CIN,1,
+JMack,2026_05_CIN_MIA,5,MIA,CIN,CIN,1,0.5,0.0,CIN,1,
+CMac,2026_05_CLE_NYJ,5,NYJ,CLE,CLE,0,0.5,1.0,NYJ,0,
+Claude,2026_05_CLE_NYJ,5,NYJ,CLE,CLE,0,0.35,1.0,NYJ,0,"Cleveland at 3-1 is the better team despite losing QB Dillon Gabriel; NYJ is 1-3 and missing Breece Hall and Adonai Mitchell, crippling their offense."
+Clayton,2026_05_CLE_NYJ,5,NYJ,CLE,CLE,0,0.5,1.0,NYJ,0,
+JMack,2026_05_CLE_NYJ,5,NYJ,CLE,CLE,0,0.5,1.0,NYJ,0,
+CMac,2026_05_DEN_LAC,5,LAC,DEN,DEN,1,0.5,0.0,DEN,1,
+Claude,2026_05_DEN_LAC,5,LAC,DEN,DEN,1,0.21999999999999997,0.0,DEN,1,"LAC is 0-4 with Trey Lance doubtful and a devastated offensive line missing Joe Alt and both starting guards, making Denver a strong pick even in a division road game."
+Clayton,2026_05_DEN_LAC,5,LAC,DEN,DEN,1,0.5,0.0,DEN,1,
+JMack,2026_05_DEN_LAC,5,LAC,DEN,DEN,1,0.5,0.0,DEN,1,
+CMac,2026_05_DET_ARI,5,ARI,DET,DET,1,0.5,0.0,DET,1,
+Claude,2026_05_DET_ARI,5,ARI,DET,DET,1,0.35,0.0,DET,1,"Detroit is the more talented team and ARI is 1-3; despite Detroit's own injury concerns, they should handle a struggling Cardinals squad on the road."
+Clayton,2026_05_DET_ARI,5,ARI,DET,DET,1,0.5,0.0,DET,1,
+JMack,2026_05_DET_ARI,5,ARI,DET,DET,1,0.5,0.0,DET,1,
+CMac,2026_05_HOU_TEN,5,TEN,HOU,HOU,1,0.5,0.0,HOU,1,
+Claude,2026_05_HOU_TEN,5,TEN,HOU,TEN,0,0.55,0.0,HOU,1,"Both teams are 0-4 but Houston's offensive line is a mess with three tackles questionable, giving Tennessee a slight home-field edge in this ugly matchup."
+Clayton,2026_05_HOU_TEN,5,TEN,HOU,HOU,1,0.5,0.0,HOU,1,
+JMack,2026_05_HOU_TEN,5,TEN,HOU,HOU,1,0.5,0.0,HOU,1,
+CMac,2026_05_IND_PIT,5,PIT,IND,PIT,1,0.5,1.0,PIT,1,
+Claude,2026_05_IND_PIT,5,PIT,IND,PIT,1,0.62,1.0,PIT,1,"Pittsburgh at home with a strong defensive identity should handle an Indianapolis team missing several key players, including key receivers resting."
+Clayton,2026_05_IND_PIT,5,PIT,IND,IND,0,0.5,1.0,PIT,1,
+JMack,2026_05_IND_PIT,5,PIT,IND,IND,0,0.5,1.0,PIT,1,
+CMac,2026_05_LV_NE,5,NE,LV,LV,0,0.5,1.0,NE,1,
+Claude,2026_05_LV_NE,5,NE,LV,LV,0,0.37,1.0,NE,1,"Las Vegas at 3-1 is the hotter team and New England's secondary is decimated with four CBs out, making it hard to contain LV's passing attack even without top receivers."
+Clayton,2026_05_LV_NE,5,NE,LV,LV,0,0.5,1.0,NE,1,
+JMack,2026_05_LV_NE,5,NE,LV,NE,1,0.5,1.0,NE,1,
+CMac,2026_05_MIN_NO,5,NO,MIN,MIN,1,0.5,0.0,MIN,1,
+Claude,2026_05_MIN_NO,5,NO,MIN,MIN,1,0.19999999999999996,0.0,MIN,1,"Minnesota is the only undefeated team in the league at 4-0 with a stingy defense, and New Orleans at 1-3 with a banged-up linebacker corps and questionable Kamara is overmatched."
+Clayton,2026_05_MIN_NO,5,NO,MIN,MIN,1,0.5,0.0,MIN,1,
+JMack,2026_05_MIN_NO,5,NO,MIN,MIN,1,0.5,0.0,MIN,1,
+CMac,2026_05_PHI_JAX,5,JAX,PHI,JAX,1,0.5,1.0,JAX,1,
+Claude,2026_05_PHI_JAX,5,JAX,PHI,JAX,1,0.7,1.0,JAX,1,"Philadelphia is missing Saquon Barkley, DeVonta Smith, and Marquise Brown — essentially their entire skill position corps — while Jacksonville is 3-1 and playing well at home."
+Clayton,2026_05_PHI_JAX,5,JAX,PHI,JAX,1,0.5,1.0,JAX,1,
+JMack,2026_05_PHI_JAX,5,JAX,PHI,JAX,1,0.5,1.0,JAX,1,
+CMac,2026_05_SF_SEA,5,SEA,SF,SEA,0,0.5,0.0,SF,0,
+Claude,2026_05_SF_SEA,5,SEA,SF,SF,1,0.31999999999999995,0.0,SF,0,"San Francisco is 4-0 and the class of the NFC West; even without Nick Bosa, their depth and Shanahan's scheme should be enough to beat a Seattle team missing Charbonnet at home."
+Clayton,2026_05_SF_SEA,5,SEA,SF,SEA,0,0.5,0.0,SF,0,
+JMack,2026_05_SF_SEA,5,SEA,SF,SEA,0,0.5,0.0,SF,0,
+CMac,2026_05_TB_DAL,5,DAL,TB,DAL,0,0.5,0.0,TB,0,
+Claude,2026_05_TB_DAL,5,DAL,TB,DAL,0,0.82,0.0,TB,0,"TB is 0-4 and loses Baker Mayfield to a thumb injury, forcing a backup QB into a road game against a Dallas team playing at home with a functional offense."
+Clayton,2026_05_TB_DAL,5,DAL,TB,DAL,0,0.5,0.0,TB,0,
+JMack,2026_05_TB_DAL,5,DAL,TB,DAL,0,0.5,0.0,TB,0,
