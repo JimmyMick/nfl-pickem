@@ -48,6 +48,26 @@ def matchup_frame(away, home) -> dict:
             " ": team_logos(home), "Home": list(home)}
 
 
+def team_records(sched: pd.DataFrame | None) -> dict:
+    """Current W-L(-T) per team from completed games in the schedule frame."""
+    if sched is None or getattr(sched, "empty", True):
+        return {}
+    tally: dict[str, list] = {}
+    for _, g in sched.iterrows():
+        hs, as_ = g.get("home_score"), g.get("away_score")
+        if pd.isna(hs) or pd.isna(as_):
+            continue
+        h, a = g["home_team"], g["away_team"]
+        tally.setdefault(h, [0, 0, 0]); tally.setdefault(a, [0, 0, 0])
+        if hs > as_:
+            tally[h][0] += 1; tally[a][1] += 1
+        elif hs < as_:
+            tally[h][1] += 1; tally[a][0] += 1
+        else:
+            tally[h][2] += 1; tally[a][2] += 1
+    return {t: f"{w}-{l}" + (f"-{ti}" if ti else "") for t, (w, l, ti) in tally.items()}
+
+
 def logo_cfg(*keys) -> dict:
     """column_config mapping each (whitespace) key to a small logo image column."""
     return {k: _logo_col() for k in keys}
@@ -381,8 +401,9 @@ def _edge_label(edge: float, home_team: str, away_team: str) -> str:
     return f"{side} +{abs(edge):.0%}"
 
 
-def render_preview(preview: pd.DataFrame) -> None:
+def render_preview(preview: pd.DataFrame, schedule: pd.DataFrame | None = None) -> None:
     df = preview.copy()
+    records = team_records(schedule)
     df["fav"] = np.where(df["edge"] > 0, df["home_team"], df["away_team"])
     by_edge = df.reindex(df["edge"].abs().sort_values(ascending=False).index)
 
@@ -407,6 +428,10 @@ def render_preview(preview: pd.DataFrame) -> None:
         "Model": bp["Model"].values, "Market": bp["Market"].values,
         "Edge": bp["Edge"].values,
     }
+    # Append each team's current W-L(-T) next to its abbreviation.
+    if records:
+        cols["Away"] = [f"{a} ({records.get(a, '0-0')})" for a in bp["away_team"]]
+        cols["Home"] = [f"{h} ({records.get(h, '0-0')})" for h in bp["home_team"]]
     if has_spread:
         cols["Spread"] = bp.apply(
             lambda r: dog_spread_label(r["spread_line"], r["home_team"],
@@ -1317,7 +1342,7 @@ if "Season tracker" in tab_by_name:
 
 if "Weekly preview" in tab_by_name:
     with tab_by_name["Weekly preview"]:
-        render_preview(preview)
+        render_preview(preview, schedule)
         render_open_ai_picks(meta)
 
 if "📈 Paper play" in tab_by_name:
