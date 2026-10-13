@@ -164,6 +164,14 @@ def settle(graded: pd.DataFrame, season: int,
     ml_open = season_mask & (ledger["result"] == "open")
     for i in ledger[ml_open].index:
         gid = ledger.at[i, "game_id"]
+        # A tie is a moneyline push. home_win reads 0 for a tie (home didn't
+        # win), which would wrongly settle an away bet as a win — so detect the
+        # tie via a zero margin and push instead.
+        if gid in margin and pd.notna(margin[gid]) and margin[gid] == 0:
+            ledger.at[i, "result"] = "push"
+            ledger.at[i, "profit"] = 0.0
+            ledger.at[i, "settled_at"] = _now()
+            continue
         if gid not in res or pd.isna(res[gid]):
             continue
         home_win = int(res[gid])
