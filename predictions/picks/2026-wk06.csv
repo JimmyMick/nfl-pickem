@@ -45,7 +45,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,6,2026_06_HOU_JAX,,HOU,JAX,Claude,JAX,78.0,"JAX is 4-1 at home in a division game against a 1-4 HOU team that has struggled all season, making this a strong lean toward Jacksonville."
 2026,6,2026_06_HOU_JAX,,HOU,JAX,Clayton,,,
 2026,6,2026_06_HOU_JAX,2026-10-18,HOU,JAX,Eman,,,
-2026,6,2026_06_HOU_JAX,,HOU,JAX,JMack,,,
+2026,6,2026_06_HOU_JAX,,HOU,JAX,JMack,JAX,61.0,
 2026,6,2026_06_HOU_JAX,2026-10-18,HOU,JAX,Mike,,,
 2026,6,2026_06_HOU_JAX,2026-10-18,HOU,JAX,Tunk,,,
 2026,6,2026_06_LAC_KC,,LAC,KC,CMac,KC,50.0,
