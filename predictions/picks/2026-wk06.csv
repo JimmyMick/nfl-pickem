@@ -15,7 +15,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,6,2026_06_BAL_CLE,2026-10-18,BAL,CLE,Tunk,,,
 2026,6,2026_06_BUF_LV,,BUF,LV,CMac,BUF,50.0,
 2026,6,2026_06_BUF_LV,,BUF,LV,Claude,BUF,72.0,"BUF is 4-1 with a high-powered offense and LV just got demolished 45-17 by NE, showing significant vulnerability."
-2026,6,2026_06_BUF_LV,,BUF,LV,Clayton,LV,50.0,
+2026,6,2026_06_BUF_LV,,BUF,LV,Clayton,BUF,50.0,
 2026,6,2026_06_BUF_LV,2026-10-18,BUF,LV,Eman,,,
 2026,6,2026_06_BUF_LV,,BUF,LV,JMack,BUF,66.0,
 2026,6,2026_06_BUF_LV,2026-10-18,BUF,LV,Mike,,,
