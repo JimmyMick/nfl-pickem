@@ -22,7 +22,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,6,2026_06_BUF_LV,2026-10-18,BUF,LV,Tunk,,,
 2026,6,2026_06_CAR_PHI,,CAR,PHI,CMac,CAR,50.0,
 2026,6,2026_06_CAR_PHI,,CAR,PHI,Claude,PHI,58.0,PHI is struggling at 2-3 but at home against a CAR team with inconsistent results; home field and talent edge favor Philly in a tight one.
-2026,6,2026_06_CAR_PHI,,CAR,PHI,Clayton,,,
+2026,6,2026_06_CAR_PHI,,CAR,PHI,Clayton,CAR,50,
 2026,6,2026_06_CAR_PHI,2026-10-18,CAR,PHI,Eman,,,
 2026,6,2026_06_CAR_PHI,,CAR,PHI,JMack,PHI,56.0,
 2026,6,2026_06_CAR_PHI,2026-10-18,CAR,PHI,Mike,,,
@@ -43,7 +43,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,6,2026_06_DAL_GB,2026-10-18,DAL,GB,Tunk,,,
 2026,6,2026_06_HOU_JAX,,HOU,JAX,CMac,JAX,50.0,
 2026,6,2026_06_HOU_JAX,,HOU,JAX,Claude,JAX,78.0,"JAX is 4-1 at home in a division game against a 1-4 HOU team that has struggled all season, making this a strong lean toward Jacksonville."
-2026,6,2026_06_HOU_JAX,,HOU,JAX,Clayton,,,
+2026,6,2026_06_HOU_JAX,,HOU,JAX,Clayton,JAX,50,
 2026,6,2026_06_HOU_JAX,2026-10-18,HOU,JAX,Eman,,,
 2026,6,2026_06_HOU_JAX,,HOU,JAX,JMack,JAX,66.0,
 2026,6,2026_06_HOU_JAX,2026-10-18,HOU,JAX,Mike,,,
