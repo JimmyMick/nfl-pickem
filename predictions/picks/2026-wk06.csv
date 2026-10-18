@@ -31,7 +31,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,6,2026_06_CHI_ATL,,CHI,ATL,Claude,ATL,60.0,"ATL is at home and coming off a strong stretch with wins over GB and NO, while CHI just got blown out 31-7 by GB on the road."
 2026,6,2026_06_CHI_ATL,,CHI,ATL,Clayton,ATL,50.0,
 2026,6,2026_06_CHI_ATL,2026-10-18,CHI,ATL,Eman,,,
-2026,6,2026_06_CHI_ATL,,CHI,ATL,JMack,ATL,55.0,
+2026,6,2026_06_CHI_ATL,,CHI,ATL,JMack,CHI,55.0,
 2026,6,2026_06_CHI_ATL,2026-10-18,CHI,ATL,Mike,,,
 2026,6,2026_06_CHI_ATL,2026-10-18,CHI,ATL,Tunk,,,
 2026,6,2026_06_DAL_GB,,DAL,GB,CMac,GB,50.0,
