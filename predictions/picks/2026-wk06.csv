@@ -8,7 +8,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,6,2026_06_ARI_LA,2026-10-18,ARI,LA,Tunk,,,
 2026,6,2026_06_BAL_CLE,,BAL,CLE,CMac,BAL,50.0,
 2026,6,2026_06_BAL_CLE,,BAL,CLE,Claude,BAL,63.0,"BAL is the superior team at 4-1 with Lamar leading a potent offense, though CLE has been competitive at home in close games this season."
-2026,6,2026_06_BAL_CLE,,BAL,CLE,Clayton,BAL,50.0,
+2026,6,2026_06_BAL_CLE,,BAL,CLE,Clayton,CLE,50.0,
 2026,6,2026_06_BAL_CLE,2026-10-18,BAL,CLE,Eman,,,
 2026,6,2026_06_BAL_CLE,,BAL,CLE,JMack,BAL,56.0,
 2026,6,2026_06_BAL_CLE,2026-10-18,BAL,CLE,Mike,,,
