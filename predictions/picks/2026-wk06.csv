@@ -24,7 +24,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,6,2026_06_CAR_PHI,,CAR,PHI,Claude,PHI,58.0,PHI is struggling at 2-3 but at home against a CAR team with inconsistent results; home field and talent edge favor Philly in a tight one.
 2026,6,2026_06_CAR_PHI,,CAR,PHI,Clayton,CAR,50.0,
 2026,6,2026_06_CAR_PHI,2026-10-18,CAR,PHI,Eman,,,
-2026,6,2026_06_CAR_PHI,,CAR,PHI,JMack,PHI,56.0,
+2026,6,2026_06_CAR_PHI,,CAR,PHI,JMack,CAR,56.0,
 2026,6,2026_06_CAR_PHI,2026-10-18,CAR,PHI,Mike,,,
 2026,6,2026_06_CAR_PHI,2026-10-18,CAR,PHI,Tunk,,,
 2026,6,2026_06_CHI_ATL,,CHI,ATL,CMac,ATL,50.0,
