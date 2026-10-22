@@ -17,7 +17,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,7,2026_07_DAL_PHI,,DAL,PHI,Claude,DAL,55.0,Philadelphia has lost four straight and looks like a team in disarray while Dallas has shown some offensive punch recently; slight lean to Dallas in a divisional game where Philly's confidence is shaken.
 2026,7,2026_07_DAL_PHI,,DAL,PHI,Clayton,,,
 2026,7,2026_07_DAL_PHI,2026-10-26,DAL,PHI,Eman,,,
-2026,7,2026_07_DAL_PHI,,DAL,PHI,JMack,PHI,63,
+2026,7,2026_07_DAL_PHI,,DAL,PHI,JMack,DAL,54,
 2026,7,2026_07_DAL_PHI,2026-10-26,DAL,PHI,Mike,,,
 2026,7,2026_07_DAL_PHI,2026-10-26,DAL,PHI,Tunk,,,
 2026,7,2026_07_DEN_ARI,2026-10-25,DEN,ARI,CMac,,,
