@@ -37,6 +37,12 @@ Three Week 7 games where our forecast parts ways with the betting market:
 - **MIA @ NYJ** — Model: **MIA ~53%**. Market: **MIA ~33%.** Yes, the winless Dolphins — the model sees a near coin flip where the books see a comfortable Jets hold. If Miami is ever going to break through, a spot like this is where the number says to look.
 - **SF @ ATL** — Model: **SF ~73%** vs market **~58%.** We're even higher on the Niners than Vegas is. Sometimes the disagreement is just "they're really good and you're still underrating them."
 
+## The Jalen Hurts factor
+
+Dig into *why* the model is pounding the table on Philadelphia and you land on one name: **Jalen Hurts.** The driver behind our Eagles edge isn't scheme or schedule — it's flagged as **QB rating**, and that's Hurts carrying the number. The market has Philly as a +185 home dog to Dallas; the model looks at the guy under center and sees the better quarterback on the field Monday night.
+
+That's the whole thesis for the week's biggest paper play. When the public prices the Eagles like an underdog in their own building, the model's read is simple — you don't fade a quarterback like Hurts at plus money at home. The Monday nightcap is where we find out whether that conviction holds up, or whether Dallas makes us eat it.
+
 ## Paper trade: taking a Week 6 lump, reloading for Week 7
 
 The rules, as always: **one** flat 10-unit play per week — the single biggest model-vs-market disagreement, backing the model's side. Forward, out-of-sample, no cherry-picking.
