@@ -51,7 +51,7 @@ With the Eagles knocked off their perch, here's the recalculated top of the boar
 
 The rules, as always: **one** flat 10-unit play per week — the single biggest model-vs-market disagreement, backing the model's side. Forward, out-of-sample, no cherry-picking, and crucially: **the bet is locked when it's placed.**
 
-**Week 7's play was locked Thursday morning: the Philadelphia Eagles** (+21% edge at the time, a +185 price). Then Hurts went down. That's the risk of an early-week play in a sport where news breaks daily — you place the bet with the information you have, and sometimes the information changes under you. We're not going to retroactively rewrite a logged play; it rides as Eagles, and the ledger wears the result. If the model had known Hurts was out, it never would have landed on Philadelphia — a useful, honest data point about the cost of betting early.
+**Week 7's play was locked Thursday morning: the Philadelphia Eagles** (+21% edge at the time, a +185 price). That was calculated without taking into account that Hurts was out. If the model had known Hurts was out, it never would have landed on Philadelphia — a useful, honest data point about the cost of betting early.
 
 **Week 6 was a miss** — the NY Giants came up short, **-10 units**. Some weeks the signal looks sharp, some weeks it eats a loss.
 
