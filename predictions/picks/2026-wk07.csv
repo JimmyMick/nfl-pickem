@@ -31,7 +31,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,7,2026_07_GB_DET,,GB,DET,Claude,GB,56.0,"Green Bay is on a three-game win streak including a dominant 31-7 win over Chicago, and Detroit has been inconsistent with a loss to Carolina; division rivalry makes this close but GB has momentum."
 2026,7,2026_07_GB_DET,,GB,DET,Clayton,,,
 2026,7,2026_07_GB_DET,2026-10-25,GB,DET,Eman,,,
-2026,7,2026_07_GB_DET,,GB,DET,JMack,GB,56,
+2026,7,2026_07_GB_DET,,GB,DET,JMack,GB,88,
 2026,7,2026_07_GB_DET,2026-10-25,GB,DET,Mike,,,
 2026,7,2026_07_GB_DET,2026-10-25,GB,DET,Tunk,,,
 2026,7,2026_07_IND_MIN,2026-10-25,IND,MIN,CMac,,,
@@ -52,7 +52,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,7,2026_07_LA_LV,,LA,LV,Claude,LV,54.0,Both teams are struggling but Las Vegas has home field and has shown more offensive firepower recently; LA has lost three of four and this is a slight lean to the Raiders at home.
 2026,7,2026_07_LA_LV,,LA,LV,Clayton,,,
 2026,7,2026_07_LA_LV,2026-10-25,LA,LV,Eman,,,
-2026,7,2026_07_LA_LV,,LA,LV,JMack,,,
+2026,7,2026_07_LA_LV,,LA,LV,JMack,LA,50,
 2026,7,2026_07_LA_LV,2026-10-25,LA,LV,Mike,,,
 2026,7,2026_07_LA_LV,2026-10-25,LA,LV,Tunk,,,
 2026,7,2026_07_MIA_NYJ,2026-10-25,MIA,NYJ,CMac,,,
