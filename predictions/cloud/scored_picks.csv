@@ -355,6 +355,9 @@ JMack,2026_07_CIN_BAL,7,BAL,CIN,CIN,1,0.45999999999999996,0.0,CIN,0,
 Claude,2026_07_CLE_TEN,7,TEN,CLE,CLE,1,0.28,0.0,CLE,1,"Tennessee is 1-5 and has been outscored badly in recent weeks while Cleveland is playing solid complementary football, including a win over Baltimore last week."
 Clayton,2026_07_CLE_TEN,7,TEN,CLE,CLE,1,0.5,0.0,CLE,1,
 JMack,2026_07_CLE_TEN,7,TEN,CLE,CLE,1,0.45999999999999996,0.0,CLE,1,
+Claude,2026_07_DAL_PHI,7,PHI,DAL,DAL,1,0.44999999999999996,0.0,DAL,0,Philadelphia has lost four straight and looks like a team in disarray while Dallas has shown some offensive punch recently; slight lean to Dallas in a divisional game where Philly's confidence is shaken.
+Clayton,2026_07_DAL_PHI,7,PHI,DAL,DAL,1,0.5,0.0,DAL,0,
+JMack,2026_07_DAL_PHI,7,PHI,DAL,DAL,1,0.45999999999999996,0.0,DAL,0,
 Claude,2026_07_DEN_ARI,7,ARI,DEN,DEN,1,0.31999999999999995,0.0,DEN,1,Denver is 4-2 with wins in three of their last four and Arizona is 2-4 with a weak schedule-adjusted profile; Denver's defense should control a struggling Cardinals offense.
 Clayton,2026_07_DEN_ARI,7,ARI,DEN,DEN,1,0.5,0.0,DEN,1,
 JMack,2026_07_DEN_ARI,7,ARI,DEN,DEN,1,0.42000000000000004,0.0,DEN,1,
