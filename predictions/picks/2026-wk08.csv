@@ -20,7 +20,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,8,2026_08_BAL_BUF,,BAL,BUF,JMack,,,
 2026,8,2026_08_BAL_BUF,2026-11-01,BAL,BUF,Mike,,,
 2026,8,2026_08_BAL_BUF,2026-11-01,BAL,BUF,Tunk,,,
-2026,8,2026_08_CAR_GB,2026-10-29,CAR,GB,CMac,GB,50,
+2026,8,2026_08_CAR_GB,2026-10-29,CAR,GB,CMac,CAR,50,
 2026,8,2026_08_CAR_GB,,CAR,GB,Claude,GB,65.0,"Green Bay has won three of their last four and holds home-field advantage; Carolina's offensive line is banged up with multiple guards out, which should hamper their attack against a Packers defense playing at home."
 2026,8,2026_08_CAR_GB,,CAR,GB,Clayton,GB,50,
 2026,8,2026_08_CAR_GB,2026-10-29,CAR,GB,Eman,,,
