@@ -10,7 +10,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,8,2026_08_ATL_TB,,ATL,TB,Claude,ATL,60.0,Atlanta is the better team by record and just beat San Francisco; Tampa Bay's 2-5 record and inconsistent play at home makes Atlanta the pick in this division matchup despite the road setting.
 2026,8,2026_08_ATL_TB,,ATL,TB,Clayton,TB,50.0,
 2026,8,2026_08_ATL_TB,2026-11-01,ATL,TB,Eman,,,
-2026,8,2026_08_ATL_TB,,ATL,TB,JMack,ATL,59.0,
+2026,8,2026_08_ATL_TB,,ATL,TB,JMack,TB,59.0,
 2026,8,2026_08_ATL_TB,2026-11-01,ATL,TB,Mike,,,
 2026,8,2026_08_ATL_TB,2026-11-01,ATL,TB,Tunk,,,
 2026,8,2026_08_BAL_BUF,2026-11-01,BAL,BUF,CMac,,,
