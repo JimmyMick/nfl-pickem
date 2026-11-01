@@ -50,7 +50,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,8,2026_08_IND_JAX,2026-11-01,IND,JAX,Tunk,,,
 2026,8,2026_08_KC_DEN,2026-11-01,KC,DEN,CMac,,,
 2026,8,2026_08_KC_DEN,,KC,DEN,Claude,KC,62.0,"Despite Kansas City's surprising loss to Seattle, they remain 5-1 and Patrick Mahomes historically performs well in division games; Denver is solid but KC's overall quality edges them out even on the road."
-2026,8,2026_08_KC_DEN,,KC,DEN,Clayton,KC,50.0,
+2026,8,2026_08_KC_DEN,,KC,DEN,Clayton,DEN,50.0,
 2026,8,2026_08_KC_DEN,2026-11-01,KC,DEN,Eman,,,
 2026,8,2026_08_KC_DEN,,KC,DEN,JMack,DEN,64.0,
 2026,8,2026_08_KC_DEN,2026-11-01,KC,DEN,Mike,,,
