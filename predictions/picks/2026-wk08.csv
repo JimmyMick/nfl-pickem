@@ -36,7 +36,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,8,2026_08_CHI_SEA,2026-11-02,CHI,SEA,Tunk,,,
 2026,8,2026_08_CLE_PIT,2026-11-01,CLE,PIT,CMac,,,
 2026,8,2026_08_CLE_PIT,,CLE,PIT,Claude,PIT,58.0,Pittsburgh is playing at home and has won three straight after dropping the first meeting to Cleveland; the Steelers' home-field advantage in this rivalry game makes them a slight edge pick.
-2026,8,2026_08_CLE_PIT,,CLE,PIT,Clayton,CLE,50.0,
+2026,8,2026_08_CLE_PIT,,CLE,PIT,Clayton,PIT,50.0,
 2026,8,2026_08_CLE_PIT,2026-11-01,CLE,PIT,Eman,,,
 2026,8,2026_08_CLE_PIT,,CLE,PIT,JMack,PIT,59.0,
 2026,8,2026_08_CLE_PIT,2026-11-01,CLE,PIT,Mike,,,
