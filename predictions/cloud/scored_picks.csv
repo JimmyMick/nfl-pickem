@@ -391,3 +391,43 @@ JMack,2026_07_SF_ATL,7,ATL,SF,SF,0,0.4,1.0,ATL,0,
 Claude,2026_07_TB_CAR,7,CAR,TB,CAR,0,0.68,0.0,TB,0,"Carolina is 3-2 with three straight wins and has home field in a division game; Tampa Bay is 1-5 and struggling badly, making the Panthers a solid pick here."
 Clayton,2026_07_TB_CAR,7,CAR,TB,CAR,0,0.5,0.0,TB,0,
 JMack,2026_07_TB_CAR,7,CAR,TB,CAR,0,0.5,0.0,TB,0,
+Claude,2026_08_ARI_DAL,8,DAL,ARI,DAL,0,0.62,0.0,ARI,0,"Dallas is healthier, plays at home, and just demolished Philadelphia; Arizona at 2-5 has been inconsistent and their one win was a narrow road victory, making Dallas the safer pick here."
+Clayton,2026_08_ARI_DAL,8,DAL,ARI,DAL,0,0.5,0.0,ARI,0,
+JMack,2026_08_ARI_DAL,8,DAL,ARI,DAL,0,0.5,0.0,ARI,0,
+Claude,2026_08_ATL_TB,8,TB,ATL,ATL,0,0.4,1.0,TB,0,Atlanta is the better team by record and just beat San Francisco; Tampa Bay's 2-5 record and inconsistent play at home makes Atlanta the pick in this division matchup despite the road setting.
+Clayton,2026_08_ATL_TB,8,TB,ATL,TB,1,0.5,1.0,TB,0,
+JMack,2026_08_ATL_TB,8,TB,ATL,TB,1,0.59,1.0,TB,0,
+Claude,2026_08_BAL_BUF,8,BUF,BAL,BUF,1,0.7,1.0,BUF,1,"Buffalo is 5-1 at home and playing dominant football; Baltimore has dropped two straight including a blowout loss to Cincinnati, and the Bills' home environment gives them a clear edge."
+Clayton,2026_08_BAL_BUF,8,BUF,BAL,BUF,1,0.5,1.0,BUF,1,
+JMack,2026_08_BAL_BUF,8,BUF,BAL,BUF,1,0.65,1.0,BUF,1,
+CMac,2026_08_CAR_GB,8,GB,CAR,CAR,0,0.5,1.0,GB,1,
+Claude,2026_08_CAR_GB,8,GB,CAR,GB,1,0.65,1.0,GB,1,"Green Bay has won three of their last four and holds home-field advantage; Carolina's offensive line is banged up with multiple guards out, which should hamper their attack against a Packers defense playing at home."
+Clayton,2026_08_CAR_GB,8,GB,CAR,GB,1,0.5,1.0,GB,1,
+JMack,2026_08_CAR_GB,8,GB,CAR,GB,1,0.67,1.0,GB,1,
+Claude,2026_08_CLE_PIT,8,PIT,CLE,PIT,1,0.58,1.0,PIT,1,Pittsburgh is playing at home and has won three straight after dropping the first meeting to Cleveland; the Steelers' home-field advantage in this rivalry game makes them a slight edge pick.
+Clayton,2026_08_CLE_PIT,8,PIT,CLE,PIT,1,0.5,1.0,PIT,1,
+JMack,2026_08_CLE_PIT,8,PIT,CLE,PIT,1,0.59,1.0,PIT,1,
+Claude,2026_08_IND_JAX,8,JAX,IND,JAX,1,0.68,1.0,JAX,1,Jacksonville is 4-2 with a strong home record and has won three straight before a close loss; Indianapolis at 2-5 has lost four of their last five and struggles on the road in division play.
+Clayton,2026_08_IND_JAX,8,JAX,IND,JAX,1,0.5,1.0,JAX,1,
+JMack,2026_08_IND_JAX,8,JAX,IND,JAX,1,0.5,1.0,JAX,1,
+Claude,2026_08_KC_DEN,8,DEN,KC,KC,0,0.38,1.0,DEN,1,"Despite Kansas City's surprising loss to Seattle, they remain 5-1 and Patrick Mahomes historically performs well in division games; Denver is solid but KC's overall quality edges them out even on the road."
+Clayton,2026_08_KC_DEN,8,DEN,KC,KC,0,0.5,1.0,DEN,1,
+JMack,2026_08_KC_DEN,8,DEN,KC,DEN,1,0.64,1.0,DEN,1,
+Claude,2026_08_LAC_LA,8,LA,LAC,LA,1,0.8,1.0,LA,1,The Chargers are 0-6 and have been outclassed in every game this season; the Rams play at home in the same stadium and are a significantly better team at this point in the season.
+Clayton,2026_08_LAC_LA,8,LA,LAC,LA,1,0.5,1.0,LA,1,
+JMack,2026_08_LAC_LA,8,LA,LAC,LA,1,0.63,1.0,LA,1,
+Claude,2026_08_LV_NYJ,8,NYJ,LV,LV,1,0.44999999999999996,0.0,LV,0,"Both teams are struggling badly, but Las Vegas has been competitive in losses while the Jets have been inconsistent at home; a slight lean to Las Vegas as the less dysfunctional squad."
+Clayton,2026_08_LV_NYJ,8,NYJ,LV,NYJ,0,0.5,0.0,LV,0,
+JMack,2026_08_LV_NYJ,8,NYJ,LV,LV,1,0.41000000000000003,0.0,LV,0,
+Claude,2026_08_MIN_DET,8,DET,MIN,MIN,0,0.35,1.0,DET,1,Minnesota is the last undefeated team at 6-0 and has been winning close games consistently; Detroit is dangerous at home but the Vikings' unbeaten run and overall team quality gives them the edge in this division showdown.
+Clayton,2026_08_MIN_DET,8,DET,MIN,DET,1,0.5,1.0,DET,1,
+JMack,2026_08_MIN_DET,8,DET,MIN,MIN,0,0.38,1.0,DET,1,
+Claude,2026_08_NE_MIA,8,MIA,NE,NE,1,0.31999999999999995,0.0,NE,1,New England has won three straight and is playing quality football; Miami at 1-5 has been one of the worst teams in the AFC and even home-field advantage cannot overcome that gap.
+Clayton,2026_08_NE_MIA,8,MIA,NE,NE,1,0.5,0.0,NE,1,
+JMack,2026_08_NE_MIA,8,MIA,NE,NE,1,0.37,0.0,NE,1,
+Claude,2026_08_PHI_WAS,8,WAS,PHI,PHI,0,0.44999999999999996,1.0,WAS,1,"Both teams are struggling, but Philadelphia has more talent and Washington is 1-4 at home; the Eagles' roster depth gives them a slight edge despite their own poor recent form."
+Clayton,2026_08_PHI_WAS,8,WAS,PHI,PHI,0,0.5,1.0,WAS,1,
+JMack,2026_08_PHI_WAS,8,WAS,PHI,WAS,1,0.57,1.0,WAS,1,
+Claude,2026_08_TEN_CIN,8,CIN,TEN,CIN,1,0.8,1.0,CIN,1,"Cincinnati is 4-2, playing at home, and just demolished Baltimore; Tennessee at 1-6 is one of the worst teams in the league and this should be a comfortable Bengals win."
+Clayton,2026_08_TEN_CIN,8,CIN,TEN,CIN,1,0.5,1.0,CIN,1,
+JMack,2026_08_TEN_CIN,8,CIN,TEN,CIN,1,0.64,1.0,CIN,1,
