@@ -404,6 +404,9 @@ CMac,2026_08_CAR_GB,8,GB,CAR,CAR,0,0.5,1.0,GB,1,
 Claude,2026_08_CAR_GB,8,GB,CAR,GB,1,0.65,1.0,GB,1,"Green Bay has won three of their last four and holds home-field advantage; Carolina's offensive line is banged up with multiple guards out, which should hamper their attack against a Packers defense playing at home."
 Clayton,2026_08_CAR_GB,8,GB,CAR,GB,1,0.5,1.0,GB,1,
 JMack,2026_08_CAR_GB,8,GB,CAR,GB,1,0.67,1.0,GB,1,
+Claude,2026_08_CHI_SEA,8,SEA,CHI,SEA,0,0.6,0.0,CHI,0,Seattle just upset Kansas City at home and has a strong home-field advantage; Chicago lost badly to Green Bay recently and the Seahawks' home environment and momentum make them the pick here.
+Clayton,2026_08_CHI_SEA,8,SEA,CHI,SEA,0,0.5,0.0,CHI,0,
+JMack,2026_08_CHI_SEA,8,SEA,CHI,SEA,0,0.62,0.0,CHI,0,
 Claude,2026_08_CLE_PIT,8,PIT,CLE,PIT,1,0.58,1.0,PIT,1,Pittsburgh is playing at home and has won three straight after dropping the first meeting to Cleveland; the Steelers' home-field advantage in this rivalry game makes them a slight edge pick.
 Clayton,2026_08_CLE_PIT,8,PIT,CLE,PIT,1,0.5,1.0,PIT,1,
 JMack,2026_08_CLE_PIT,8,PIT,CLE,PIT,1,0.59,1.0,PIT,1,
