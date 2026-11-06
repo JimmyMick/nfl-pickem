@@ -62,7 +62,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,9,2026_09_HOU_LAC,,HOU,LAC,JMack,,,
 2026,9,2026_09_HOU_LAC,2026-11-08,HOU,LAC,Mike,,,
 2026,9,2026_09_HOU_LAC,2026-11-08,HOU,LAC,Tunk,,,
-2026,9,2026_09_JAX_BAL,2026-11-05,JAX,BAL,CMac,,,
+2026,9,2026_09_JAX_BAL,2026-11-05,JAX,BAL,CMac,JAX,50,
 2026,9,2026_09_JAX_BAL,,JAX,BAL,Claude,JAX,82.0,"Baltimore is without both QBs (Lamar Jackson out, Tyler Huntley out), making them essentially unwinnable at the position; JAX at 5-2 should dominate a QB-less Ravens squad."
 2026,9,2026_09_JAX_BAL,,JAX,BAL,Clayton,JAX,50,
 2026,9,2026_09_JAX_BAL,2026-11-05,JAX,BAL,Eman,,,
