@@ -279,11 +279,17 @@ def render_leaderboard(scored: pd.DataFrame | None, graded: pd.DataFrame) -> Non
     leader = experts.iloc[0] if not experts.empty else board.iloc[0]
 
     st.subheader("Standings")
-    show = board.head(5)
-    cols = st.columns(len(show))
-    for col, (_, r) in zip(cols, show.iterrows()):
-        col.metric(r["Player"], r["Record"], f"vs model {r['vs Model']}",
-                   delta_color="off")
+    # Cards show every human/AI expert (the contestants) — never truncate a
+    # player. Benchmarks (model/market) live in the table + chart below, so
+    # they are excluded here. Wrap to rows of 5 so a growing roster still fits.
+    show = experts if not experts.empty else board
+    players = list(show.iterrows())
+    for start in range(0, len(players), 5):
+        chunk = players[start:start + 5]
+        cols = st.columns(len(chunk))
+        for col, (_, r) in zip(cols, chunk):
+            col.metric(r["Player"], r["Record"], f"vs model {r['vs Model']}",
+                       delta_color="off")
     st.caption(f"🏆 Leading: **{leader['Player']}** ({leader['Record']}). "
                "“vs Model” = an expert’s accuracy minus the model’s over the same "
                "games they picked. The **🤖 Model** and **💰 Market (Vegas)** rows "
