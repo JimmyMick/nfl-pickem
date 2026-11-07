@@ -31,6 +31,12 @@ _PREDICTIONS_DIR = Path(
 PICKS_DIR = _PREDICTIONS_DIR / "picks"
 PLAYERS_FILE = PICKS_DIR / "players.txt"
 
+# Standings labels for the two non-player benchmark rows (the model and the
+# market). Exported so the app can tell benchmarks apart from human/AI experts.
+MODEL_LABEL = "\U0001f916 Model"
+MARKET_LABEL = "\U0001f4b0 Market (Vegas)"
+BENCHMARK_LABELS = (MODEL_LABEL, MARKET_LABEL)
+
 # Columns in a weekly pick sheet. game_id is the join key; pick/confidence are
 # the only two a human fills in. ``rationale`` is optional free text (the LLM
 # "AI expert" writes a one-liner per pick; humans leave it blank) — metadata
@@ -198,5 +204,51 @@ def leaderboard(scored: pd.DataFrame, graded: pd.DataFrame) -> pd.DataFrame:
             "Log loss": ll,
             "_acc": grp["correct"].mean(),
         })
+
+    # Benchmark rows: the model and the market, scored over the same universe of
+    # games the experts actually picked (so they sit on equal footing with the
+    # humans, not on games nobody chose). The model's "vs Model" is 0 by
+    # definition; the market's is its accuracy edge over the model.
+    bench = _benchmark_rows(scored, graded)
+    rows.extend(bench)
+
     out = pd.DataFrame(rows).sort_values("_acc", ascending=False)
     return out.drop(columns="_acc").reset_index(drop=True)
+
+
+def _benchmark_rows(scored: pd.DataFrame, graded: pd.DataFrame) -> list[dict]:
+    """Model and market standings rows over the picked-game universe.
+
+    Scored across the union of games any expert picked, so the two benchmarks
+    are comparable to the humans without being judged on games none of them
+    touched. Calibration uses each side's own home-win probability.
+    """
+    picked_ids = scored["game_id"].unique()
+    sub = graded[graded["game_id"].isin(picked_ids)]
+    if sub.empty:
+        return []
+
+    model_acc = sub["model_correct"].mean()
+    rows = []
+    for label, acc_col, prob_col, vs in (
+        (MODEL_LABEL, "model_correct", "model_home_prob", 0.0),
+        (MARKET_LABEL, "market_correct", "market_home_prob",
+         sub["market_correct"].mean() - model_acc),
+    ):
+        acc = sub[acc_col].mean()
+        cal = sub.dropna(subset=[prob_col])
+        if len(cal):
+            br = f"{brier_score_loss(cal['home_win'], cal[prob_col]):.3f}"
+            ll = f"{log_loss(cal['home_win'], cal[prob_col], labels=[0, 1]):.3f}"
+        else:
+            br = ll = "—"
+        rows.append({
+            "Player": label,
+            "Picks": len(sub),
+            "Record": _record(sub[acc_col]),
+            "vs Model": f"{vs:+.0%}",
+            "Brier": br,
+            "Log loss": ll,
+            "_acc": acc,
+        })
+    return rows

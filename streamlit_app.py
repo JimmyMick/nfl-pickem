@@ -270,27 +270,39 @@ def render_leaderboard(scored: pd.DataFrame | None, graded: pd.DataFrame) -> Non
         return
 
     board = picks_mod.leaderboard(scored, graded)
-    leader = board.iloc[0]
+    # The two benchmark rows (model + market) are reference lines, not players,
+    # so the "leading" crown goes to the top human/AI expert.
+    is_bench = board["Player"].isin(picks_mod.BENCHMARK_LABELS)
+    experts = board[~is_bench]
+    leader = experts.iloc[0] if not experts.empty else board.iloc[0]
 
     st.subheader("Standings")
-    cols = st.columns(min(len(board), 5))
-    for col, (_, r) in zip(cols, board.iterrows()):
+    show = experts if not experts.empty else board
+    cols = st.columns(min(len(show), 5))
+    for col, (_, r) in zip(cols, show.iterrows()):
         col.metric(r["Player"], r["Record"], f"vs model {r['vs Model']}",
                    delta_color="off")
     st.caption(f"🏆 Leading: **{leader['Player']}** ({leader['Record']}). "
                "“vs Model” = an expert’s accuracy minus the model’s over the same "
-               "games they picked.")
+               "games they picked. The **🤖 Model** and **💰 Market (Vegas)** rows "
+               "are benchmarks — scored over the same games the experts picked.")
     st.dataframe(board, width="stretch", hide_index=True)
 
     chart_df = board.copy()
-    chart_df["AccPct"] = scored.groupby("player")["correct"].mean().reindex(
-        chart_df["Player"]).to_numpy() * 100
+    # Accuracy for the bars: parse the "(NN%)" out of each row's Record so the
+    # benchmark rows (not present in `scored`) chart correctly alongside players.
+    chart_df["AccPct"] = (
+        chart_df["Record"].str.extract(r"\((\d+)%\)")[0].astype(float))
+    chart_df["Kind"] = chart_df["Player"].isin(picks_mod.BENCHMARK_LABELS).map(
+        {True: "Benchmark", False: "Expert"})
     bar = (
         alt.Chart(chart_df).mark_bar().encode(
             x=alt.X("AccPct:Q", title="Straight-up accuracy (%)"),
             y=alt.Y("Player:N", sort="-x", title=None),
-            color=alt.Color("AccPct:Q", scale=alt.Scale(scheme="greens"),
-                            legend=None),
+            color=alt.Color("Kind:N",
+                            scale=alt.Scale(domain=["Expert", "Benchmark"],
+                                            range=["#2ca02c", "#999999"]),
+                            legend=alt.Legend(title=None, orient="bottom")),
             tooltip=["Player", "Record", "vs Model", "Brier", "Log loss"],
         ).properties(height=max(140, 34 * len(chart_df)))
     )
