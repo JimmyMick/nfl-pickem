@@ -269,16 +269,18 @@ def render_leaderboard(scored: pd.DataFrame | None, graded: pd.DataFrame) -> Non
                 "against the model on the games they picked.")
         return
 
+    # `board` is already sorted by accuracy (descending), benchmarks included.
     board = picks_mod.leaderboard(scored, graded)
-    # The two benchmark rows (model + market) are reference lines, not players,
-    # so the "leading" crown goes to the top human/AI expert.
+    # The model + market are benchmarks, not contestants, so the "leading" crown
+    # still goes to the top human/AI expert — but they now appear in Standings
+    # too, ranked by accuracy alongside everyone else.
     is_bench = board["Player"].isin(picks_mod.BENCHMARK_LABELS)
     experts = board[~is_bench]
     leader = experts.iloc[0] if not experts.empty else board.iloc[0]
 
     st.subheader("Standings")
-    show = experts if not experts.empty else board
-    cols = st.columns(min(len(show), 5))
+    show = board.head(5)
+    cols = st.columns(len(show))
     for col, (_, r) in zip(cols, show.iterrows()):
         col.metric(r["Player"], r["Record"], f"vs model {r['vs Model']}",
                    delta_color="off")
