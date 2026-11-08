@@ -99,7 +99,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,9,2026_09_NYJ_KC,2026-11-08,NYJ,KC,Tunk,,,
 2026,9,2026_09_TB_CHI,,TB,CHI,CMac,CHI,50.0,
 2026,9,2026_09_TB_CHI,,TB,CHI,Claude,CHI,72.0,"Chicago at 6-2 is one of the surprise teams of the season with three straight wins, while Tampa Bay at 3-5 has been inconsistent; Bears at home should prevail."
-2026,9,2026_09_TB_CHI,,TB,CHI,Clayton,,,
+2026,9,2026_09_TB_CHI,,TB,CHI,Clayton,CHI,50,
 2026,9,2026_09_TB_CHI,2026-11-08,TB,CHI,Eman,,,
 2026,9,2026_09_TB_CHI,,TB,CHI,JMack,CHI,50.0,
 2026,9,2026_09_TB_CHI,2026-11-08,TB,CHI,Mike,,,
