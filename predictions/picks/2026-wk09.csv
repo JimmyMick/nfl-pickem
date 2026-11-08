@@ -15,7 +15,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,9,2026_09_BUF_MIN,2026-11-09,BUF,MIN,Tunk,,,
 2026,9,2026_09_CIN_ATL,2026-11-08,CIN,ATL,CMac,,,
 2026,9,2026_09_CIN_ATL,,CIN,ATL,Claude,CIN,72.0,"Cincinnati at 5-2 is playing strong football with wins over BAL and TEN recently, while Atlanta was shut out 0-16 last week and has been inconsistent all season."
-2026,9,2026_09_CIN_ATL,,CIN,ATL,Clayton,,,
+2026,9,2026_09_CIN_ATL,,CIN,ATL,Clayton,ATL,50,
 2026,9,2026_09_CIN_ATL,2026-11-08,CIN,ATL,Eman,,,
 2026,9,2026_09_CIN_ATL,,CIN,ATL,JMack,,,
 2026,9,2026_09_CIN_ATL,2026-11-08,CIN,ATL,Mike,,,
@@ -62,9 +62,9 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,9,2026_09_HOU_LAC,,HOU,LAC,JMack,,,
 2026,9,2026_09_HOU_LAC,2026-11-08,HOU,LAC,Mike,,,
 2026,9,2026_09_HOU_LAC,2026-11-08,HOU,LAC,Tunk,,,
-2026,9,2026_09_JAX_BAL,2026-11-05,JAX,BAL,CMac,JAX,50,
+2026,9,2026_09_JAX_BAL,2026-11-05,JAX,BAL,CMac,JAX,50.0,
 2026,9,2026_09_JAX_BAL,,JAX,BAL,Claude,JAX,82.0,"Baltimore is without both QBs (Lamar Jackson out, Tyler Huntley out), making them essentially unwinnable at the position; JAX at 5-2 should dominate a QB-less Ravens squad."
-2026,9,2026_09_JAX_BAL,,JAX,BAL,Clayton,JAX,50,
+2026,9,2026_09_JAX_BAL,,JAX,BAL,Clayton,JAX,50.0,
 2026,9,2026_09_JAX_BAL,2026-11-05,JAX,BAL,Eman,,,
 2026,9,2026_09_JAX_BAL,,JAX,BAL,JMack,JAX,58.0,
 2026,9,2026_09_JAX_BAL,2026-11-05,JAX,BAL,Mike,,,
