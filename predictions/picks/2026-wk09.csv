@@ -8,7 +8,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,9,2026_09_ARI_SEA,2026-11-08,ARI,SEA,Tunk,,,
 2026,9,2026_09_BUF_MIN,,BUF,MIN,CMac,MIN,50.0,
 2026,9,2026_09_BUF_MIN,,BUF,MIN,Claude,BUF,57.0,"This is the game of the week with two 6-1 teams; Buffalo has been dominant recently (36-10 vs BAL) and their offense is elite, giving them a slight edge even in Minnesota."
-2026,9,2026_09_BUF_MIN,,BUF,MIN,Clayton,,,
+2026,9,2026_09_BUF_MIN,,BUF,MIN,Clayton,BUF,50.0,
 2026,9,2026_09_BUF_MIN,2026-11-09,BUF,MIN,Eman,,,
 2026,9,2026_09_BUF_MIN,,BUF,MIN,JMack,BUF,50.0,
 2026,9,2026_09_BUF_MIN,2026-11-09,BUF,MIN,Mike,,,
@@ -99,7 +99,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,9,2026_09_NYJ_KC,2026-11-08,NYJ,KC,Tunk,,,
 2026,9,2026_09_TB_CHI,,TB,CHI,CMac,CHI,50.0,
 2026,9,2026_09_TB_CHI,,TB,CHI,Claude,CHI,72.0,"Chicago at 6-2 is one of the surprise teams of the season with three straight wins, while Tampa Bay at 3-5 has been inconsistent; Bears at home should prevail."
-2026,9,2026_09_TB_CHI,,TB,CHI,Clayton,CHI,50,
+2026,9,2026_09_TB_CHI,,TB,CHI,Clayton,CHI,50.0,
 2026,9,2026_09_TB_CHI,2026-11-08,TB,CHI,Eman,,,
 2026,9,2026_09_TB_CHI,,TB,CHI,JMack,CHI,50.0,
 2026,9,2026_09_TB_CHI,2026-11-08,TB,CHI,Mike,,,
