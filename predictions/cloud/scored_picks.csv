@@ -434,3 +434,57 @@ JMack,2026_08_PHI_WAS,8,WAS,PHI,WAS,1,0.57,1.0,WAS,1,
 Claude,2026_08_TEN_CIN,8,CIN,TEN,CIN,1,0.8,1.0,CIN,1,"Cincinnati is 4-2, playing at home, and just demolished Baltimore; Tennessee at 1-6 is one of the worst teams in the league and this should be a comfortable Bengals win."
 Clayton,2026_08_TEN_CIN,8,CIN,TEN,CIN,1,0.5,1.0,CIN,1,
 JMack,2026_08_TEN_CIN,8,CIN,TEN,CIN,1,0.64,1.0,CIN,1,
+CMac,2026_09_ARI_SEA,9,SEA,ARI,SEA,1,0.5,1.0,SEA,1,
+Claude,2026_09_ARI_SEA,9,SEA,ARI,SEA,1,0.58,1.0,SEA,1,Division game at home gives Seattle the edge despite both teams being inconsistent; Seahawks showed they can win big (20-3 vs KC) and home field matters in a coin-flip divisional matchup.
+Clayton,2026_09_ARI_SEA,9,SEA,ARI,SEA,1,0.5,1.0,SEA,1,
+JMack,2026_09_ARI_SEA,9,SEA,ARI,ARI,0,0.5,1.0,SEA,1,
+Claude,2026_09_CIN_ATL,9,ATL,CIN,CIN,1,0.28,0.0,CIN,1,"Cincinnati at 5-2 is playing strong football with wins over BAL and TEN recently, while Atlanta was shut out 0-16 last week and has been inconsistent all season."
+Clayton,2026_09_CIN_ATL,9,ATL,CIN,ATL,0,0.5,0.0,CIN,1,
+CMac,2026_09_CLE_NO,9,NO,CLE,CLE,0,0.5,1.0,NO,1,
+Claude,2026_09_CLE_NO,9,NO,CLE,CLE,0,0.31999999999999995,1.0,NO,1,"Cleveland at 5-3 has a better record and defense (held BAL to 10 points), while New Orleans at 2-5 has been struggling; CLE should handle a weak Saints team on the road."
+Clayton,2026_09_CLE_NO,9,NO,CLE,NO,1,0.5,1.0,NO,1,
+JMack,2026_09_CLE_NO,9,NO,CLE,CLE,0,0.5,1.0,NO,1,
+CMac,2026_09_DAL_IND,9,IND,DAL,DAL,1,0.5,0.0,DAL,1,
+Claude,2026_09_DAL_IND,9,IND,DAL,DAL,1,0.38,0.0,DAL,1,Indianapolis at 2-6 has lost four straight and was blown out 7-42 last week; Dallas despite inconsistency should handle a Colts team in freefall.
+Clayton,2026_09_DAL_IND,9,IND,DAL,DAL,1,0.5,0.0,DAL,1,
+JMack,2026_09_DAL_IND,9,IND,DAL,DAL,1,0.5,0.0,DAL,1,
+CMac,2026_09_DEN_CAR,9,CAR,DEN,DEN,1,0.5,0.0,DEN,1,
+Claude,2026_09_DEN_CAR,9,CAR,DEN,DEN,1,0.21999999999999997,0.0,DEN,1,"Denver at 6-2 is on a four-game winning streak and playing elite football, while Carolina has lost two straight including a 43-13 blowout; Broncos are the clear class here."
+Clayton,2026_09_DEN_CAR,9,CAR,DEN,CAR,0,0.5,0.0,DEN,1,
+JMack,2026_09_DEN_CAR,9,CAR,DEN,CAR,0,0.5,0.0,DEN,1,
+CMac,2026_09_DET_MIA,9,MIA,DET,DET,1,0.5,0.0,DET,1,
+Claude,2026_09_DET_MIA,9,MIA,DET,DET,1,0.19999999999999996,0.0,DET,1,Detroit at 5-2 is a legitimate contender and Miami at 1-6 is one of the worst teams in the league; Lions should win comfortably even on the road.
+Clayton,2026_09_DET_MIA,9,MIA,DET,DET,1,0.5,0.0,DET,1,
+JMack,2026_09_DET_MIA,9,MIA,DET,DET,1,0.5,0.0,DET,1,
+CMac,2026_09_GB_NE,9,NE,GB,GB,1,0.5,0.0,GB,0,
+Claude,2026_09_GB_NE,9,NE,GB,NE,0,0.55,0.0,GB,0,"Both teams are 5-3 but New England has home field and has been playing well (45-17 vs LV, 26-19 vs NYJ); slight edge to the Patriots at home in a close matchup."
+Clayton,2026_09_GB_NE,9,NE,GB,NE,0,0.5,0.0,GB,0,
+JMack,2026_09_GB_NE,9,NE,GB,NE,0,0.5,0.0,GB,0,
+CMac,2026_09_HOU_LAC,9,LAC,HOU,HOU,1,0.5,0.0,HOU,1,
+Claude,2026_09_HOU_LAC,9,LAC,HOU,HOU,1,0.21999999999999997,0.0,HOU,1,Los Angeles Chargers are 0-7 and winless on the season; Houston despite being 2-5 should be able to beat the worst team in the league.
+Clayton,2026_09_HOU_LAC,9,LAC,HOU,HOU,1,0.5,0.0,HOU,1,
+JMack,2026_09_HOU_LAC,9,LAC,HOU,HOU,1,0.5,0.0,HOU,1,
+CMac,2026_09_JAX_BAL,9,BAL,JAX,JAX,1,0.5,0.0,JAX,1,
+Claude,2026_09_JAX_BAL,9,BAL,JAX,JAX,1,0.18000000000000005,0.0,JAX,1,"Baltimore is without both QBs (Lamar Jackson out, Tyler Huntley out), making them essentially unwinnable at the position; JAX at 5-2 should dominate a QB-less Ravens squad."
+Clayton,2026_09_JAX_BAL,9,BAL,JAX,JAX,1,0.5,0.0,JAX,1,
+JMack,2026_09_JAX_BAL,9,BAL,JAX,JAX,1,0.42000000000000004,0.0,JAX,1,
+CMac,2026_09_LA_WAS,9,WAS,LA,LA,1,0.5,0.0,LA,1,
+Claude,2026_09_LA_WAS,9,WAS,LA,LA,1,0.4,0.0,LA,1,"The Rams at 4-4 have won two straight including a convincing 24-9 win over LAC, while Washington at 2-4 has been inconsistent; LA's talent edge tips this slightly."
+Clayton,2026_09_LA_WAS,9,WAS,LA,LA,1,0.5,0.0,LA,1,
+JMack,2026_09_LA_WAS,9,WAS,LA,LA,1,0.5,0.0,LA,1,
+CMac,2026_09_LV_SF,9,SF,LV,SF,1,0.5,1.0,SF,1,
+Claude,2026_09_LV_SF,9,SF,LV,SF,1,0.8,1.0,SF,1,San Francisco at 6-1 is one of the best teams in the NFC and playing at home; Las Vegas has lost three of four and lacks the talent to compete with the 49ers.
+Clayton,2026_09_LV_SF,9,SF,LV,SF,1,0.5,1.0,SF,1,
+JMack,2026_09_LV_SF,9,SF,LV,SF,1,0.5,1.0,SF,1,
+CMac,2026_09_NYG_PHI,9,PHI,NYG,NYG,1,0.5,0.0,NYG,1,
+Claude,2026_09_NYG_PHI,9,PHI,NYG,NYG,1,0.25,0.0,NYG,1,Philadelphia at 2-6 has lost four straight and looks like one of the worst teams in the NFC East; New York at 4-2 should handle their division rival convincingly.
+Clayton,2026_09_NYG_PHI,9,PHI,NYG,NYG,1,0.5,0.0,NYG,1,
+JMack,2026_09_NYG_PHI,9,PHI,NYG,NYG,1,0.5,0.0,NYG,1,
+CMac,2026_09_NYJ_KC,9,KC,NYJ,KC,1,0.5,1.0,KC,1,
+Claude,2026_09_NYJ_KC,9,KC,NYJ,KC,1,0.8,1.0,KC,1,Kansas City at 5-2 at home against a 2-6 Jets team that has been inconsistent all season; Chiefs should win comfortably at Arrowhead.
+Clayton,2026_09_NYJ_KC,9,KC,NYJ,KC,1,0.5,1.0,KC,1,
+JMack,2026_09_NYJ_KC,9,KC,NYJ,KC,1,0.5,1.0,KC,1,
+CMac,2026_09_TB_CHI,9,CHI,TB,CHI,1,0.5,1.0,CHI,1,
+Claude,2026_09_TB_CHI,9,CHI,TB,CHI,1,0.72,1.0,CHI,1,"Chicago at 6-2 is one of the surprise teams of the season with three straight wins, while Tampa Bay at 3-5 has been inconsistent; Bears at home should prevail."
+Clayton,2026_09_TB_CHI,9,CHI,TB,CHI,1,0.5,1.0,CHI,1,
+JMack,2026_09_TB_CHI,9,CHI,TB,CHI,1,0.5,1.0,CHI,1,
