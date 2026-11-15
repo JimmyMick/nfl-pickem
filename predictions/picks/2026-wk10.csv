@@ -64,7 +64,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,10,2026_10_MIN_GB,2026-11-15,MIN,GB,Tunk,,,
 2026,10,2026_10_NE_DET,2026-11-15,NE,DET,CMac,,,
 2026,10,2026_10_NE_DET,,NE,DET,Claude,DET,82.0,"Detroit is 6-2 with four straight wins and no injuries, while NE is missing their starting CB, center, and RB; DET should handle business at home."
-2026,10,2026_10_NE_DET,,NE,DET,Clayton,,,
+2026,10,2026_10_NE_DET,,NE,DET,Clayton,NE,50,
 2026,10,2026_10_NE_DET,2026-11-15,NE,DET,Eman,,,
 2026,10,2026_10_NE_DET,,NE,DET,JMack,,,
 2026,10,2026_10_NE_DET,2026-11-15,NE,DET,Mike,,,
@@ -94,6 +94,6 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,10,2026_10_WAS_NYG,,WAS,NYG,Claude,NYG,72.0,"NYG is 5-2 at home in a division game against a 2-5 WAS team missing their starting center, and the Giants have won three of their last four including a road win over PHI."
 2026,10,2026_10_WAS_NYG,,WAS,NYG,Clayton,NYG,50.0,
 2026,10,2026_10_WAS_NYG,2026-11-12,WAS,NYG,Eman,,,
-2026,10,2026_10_WAS_NYG,,WAS,NYG,JMack,NYG,56,
+2026,10,2026_10_WAS_NYG,,WAS,NYG,JMack,NYG,56.0,
 2026,10,2026_10_WAS_NYG,2026-11-12,WAS,NYG,Mike,,,
 2026,10,2026_10_WAS_NYG,2026-11-12,WAS,NYG,Tunk,,,
