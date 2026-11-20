@@ -6,7 +6,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,11,2026_11_CIN_WAS,,CIN,WAS,Clayton,,,
 2026,11,2026_11_CIN_WAS,,CIN,WAS,JMack,,,
 2026,11,2026_11_IND_HOU,,IND,HOU,Clayton,HOU,50.0,
-2026,11,2026_11_IND_HOU,,IND,HOU,JMack,HOU,50,
+2026,11,2026_11_IND_HOU,,IND,HOU,JMack,HOU,57,
 2026,11,2026_11_JAX_NYG,,JAX,NYG,Clayton,,,
 2026,11,2026_11_JAX_NYG,,JAX,NYG,JMack,,,
 2026,11,2026_11_LV_DEN,,LV,DEN,Clayton,,,
