@@ -121,10 +121,10 @@ CMac,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.4,0.0,SEA,1,
 Claude,2026_02_SEA_ARI,2,ARI,SEA,ARI,0,0.58,0.0,SEA,1,Arizona looked solid beating the Chargers on the road in Week 1 and gets a home division game against a Seattle team that won a low-scoring grinder; ARI's home field and offensive momentum give them a slight edge.
 Clayton,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.5,0.0,SEA,1,
 JMack,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.30000000000000004,0.0,SEA,1,
-CMac,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,
-Claude,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,Dallas at home in a division rivalry is a slight lean despite both teams being 0-1; AT&T Stadium and home-field familiarity give the Cowboys a marginal edge over Washington.
-Clayton,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.5,1.0,DAL,1,
-JMack,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,
+CMac,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,0,
+Claude,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,0,Dallas at home in a division rivalry is a slight lean despite both teams being 0-1; AT&T Stadium and home-field familiarity give the Cowboys a marginal edge over Washington.
+Clayton,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.5,1.0,DAL,0,
+JMack,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,0,
 CMac,2026_03_ARI_SF,3,SF,ARI,SF,1,0.5,1.0,SF,1,
 Clayton,2026_03_ARI_SF,3,SF,ARI,SF,1,0.5,1.0,SF,1,
 JMack,2026_03_ARI_SF,3,SF,ARI,SF,1,0.67,1.0,SF,1,
@@ -507,6 +507,9 @@ JMack,2026_10_JAX_TEN,10,TEN,JAX,JAX,1,0.5,0.0,JAX,1,
 Claude,2026_10_KC_ATL,10,ATL,KC,KC,1,0.31999999999999995,0.0,KC,1,"Despite KC losing two of their last three, ATL has been inconsistent with a 0-16 shutout loss to TB recently and KC's talent advantage should prevail on the road."
 Clayton,2026_10_KC_ATL,10,ATL,KC,KC,1,0.5,0.0,KC,1,
 JMack,2026_10_KC_ATL,10,ATL,KC,KC,1,0.5,0.0,KC,1,
+Claude,2026_10_LAC_BAL,10,BAL,LAC,BAL,0,0.78,0.0,LAC,0,LAC is 0-8 and has been outscored badly all season; BAL is 4-5 but gets a home game against the league's worst team and should finally get a comfortable win.
+Clayton,2026_10_LAC_BAL,10,BAL,LAC,BAL,0,0.5,0.0,LAC,0,
+JMack,2026_10_LAC_BAL,10,BAL,LAC,LAC,1,0.5,0.0,LAC,0,
 Claude,2026_10_LA_ARI,10,ARI,LA,LA,1,0.37,0.0,LA,1,LA lost to ARI earlier this season but has won three of their last four and is the better team; revenge factor and overall quality give LA the edge in this division rematch.
 Clayton,2026_10_LA_ARI,10,ARI,LA,LA,1,0.5,0.0,LA,1,
 JMack,2026_10_LA_ARI,10,ARI,LA,LA,1,0.5,0.0,LA,1,
