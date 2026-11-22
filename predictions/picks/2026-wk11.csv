@@ -22,19 +22,19 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,11,2026_11_MIA_BUF,,MIA,BUF,JMack,BUF,50.0,
 2026,11,2026_11_MIN_SF,,MIN,SF,Claude,SF,65.0,SF at 8-1 at home is a strong favorite; MIN is 7-2 but has lost two of three and SF's home record and recent form give them the edge in this top-tier matchup.
 2026,11,2026_11_MIN_SF,,MIN,SF,Clayton,MIN,50.0,
-2026,11,2026_11_MIN_SF,,MIN,SF,JMack,,,
+2026,11,2026_11_MIN_SF,,MIN,SF,JMack,MIN,50.0,
 2026,11,2026_11_NO_CHI,,NO,CHI,Claude,CHI,80.0,CHI is 7-2 and riding a four-game win streak at home; NO at 3-6 has been inconsistent and CHI's momentum makes this a comfortable lean.
 2026,11,2026_11_NO_CHI,,NO,CHI,Clayton,CHI,50.0,
 2026,11,2026_11_NO_CHI,,NO,CHI,JMack,CHI,50.0,
 2026,11,2026_11_NYJ_LAC,,NYJ,LAC,Claude,LAC,57.0,Both teams are struggling badly but LAC gets the home field edge and just picked up a win over BAL; NYJ has lost four straight and this is a slight lean to the home team.
 2026,11,2026_11_NYJ_LAC,,NYJ,LAC,Clayton,NYJ,50.0,
-2026,11,2026_11_NYJ_LAC,,NYJ,LAC,JMack,,,
+2026,11,2026_11_NYJ_LAC,,NYJ,LAC,JMack,LAC,50.0,
 2026,11,2026_11_PIT_PHI,,PIT,PHI,Claude,PIT,82.0,PIT at 6-3 with three straight wins faces a PHI team that has lost four straight and is 2-7; this is a strong road favorite situation.
 2026,11,2026_11_PIT_PHI,,PIT,PHI,Clayton,PHI,50.0,
 2026,11,2026_11_PIT_PHI,,PIT,PHI,JMack,PIT,50.0,
 2026,11,2026_11_TB_DET,,TB,DET,Claude,DET,85.0,DET is 7-2 on a four-game win streak at home and has been dominant; TB at 3-6 has been inconsistent and Detroit's home field advantage is significant.
 2026,11,2026_11_TB_DET,,TB,DET,Clayton,DET,50.0,
-2026,11,2026_11_TB_DET,,TB,DET,JMack,,,
+2026,11,2026_11_TB_DET,,TB,DET,JMack,DET,50.0,
 2026,11,2026_11_TEN_DAL,,TEN,DAL,Claude,DAL,75.0,"DAL at home against a 1-8 TEN team is a solid lean; despite Dallas being 4-6, Tennessee is the worst team in the league and Dallas should handle business at home."
 2026,11,2026_11_TEN_DAL,,TEN,DAL,Clayton,DAL,50.0,
 2026,11,2026_11_TEN_DAL,,TEN,DAL,JMack,DAL,50.0,
