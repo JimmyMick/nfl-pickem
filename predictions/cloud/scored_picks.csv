@@ -121,10 +121,10 @@ CMac,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.4,0.0,SEA,1,
 Claude,2026_02_SEA_ARI,2,ARI,SEA,ARI,0,0.58,0.0,SEA,1,Arizona looked solid beating the Chargers on the road in Week 1 and gets a home division game against a Seattle team that won a low-scoring grinder; ARI's home field and offensive momentum give them a slight edge.
 Clayton,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.5,0.0,SEA,1,
 JMack,2026_02_SEA_ARI,2,ARI,SEA,SEA,1,0.30000000000000004,0.0,SEA,1,
-CMac,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,0,
-Claude,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,0,Dallas at home in a division rivalry is a slight lean despite both teams being 0-1; AT&T Stadium and home-field familiarity give the Cowboys a marginal edge over Washington.
-Clayton,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.5,1.0,DAL,0,
-JMack,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,0,
+CMac,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,
+Claude,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,Dallas at home in a division rivalry is a slight lean despite both teams being 0-1; AT&T Stadium and home-field familiarity give the Cowboys a marginal edge over Washington.
+Clayton,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.5,1.0,DAL,1,
+JMack,2026_02_WAS_DAL,2,DAL,WAS,DAL,1,0.55,1.0,DAL,1,
 CMac,2026_03_ARI_SF,3,SF,ARI,SF,1,0.5,1.0,SF,1,
 Clayton,2026_03_ARI_SF,3,SF,ARI,SF,1,0.5,1.0,SF,1,
 JMack,2026_03_ARI_SF,3,SF,ARI,SF,1,0.67,1.0,SF,1,
@@ -534,3 +534,39 @@ JMack,2026_10_SF_DAL,10,DAL,SF,SF,1,0.5,0.0,SF,1,
 Claude,2026_10_WAS_NYG,10,NYG,WAS,NYG,0,0.72,0.0,WAS,0,"NYG is 5-2 at home in a division game against a 2-5 WAS team missing their starting center, and the Giants have won three of their last four including a road win over PHI."
 Clayton,2026_10_WAS_NYG,10,NYG,WAS,NYG,0,0.5,0.0,WAS,0,
 JMack,2026_10_WAS_NYG,10,NYG,WAS,NYG,0,0.56,0.0,WAS,0,
+Claude,2026_11_ARI_KC,11,KC,ARI,KC,1,0.8,1.0,KC,1,KC bounces back at home against a 3-7 ARI squad that just got blown out 34-6 by the Rams; Mahomes at Arrowhead is a strong lean.
+Clayton,2026_11_ARI_KC,11,KC,ARI,KC,1,0.5,1.0,KC,1,
+JMack,2026_11_ARI_KC,11,KC,ARI,KC,1,0.5,1.0,KC,1,
+Claude,2026_11_BAL_CAR,11,CAR,BAL,BAL,0,0.43000000000000005,1.0,CAR,1,BAL is on a brutal four-game skid but faces a CAR team that has lost four of five; road game keeps confidence modest but Baltimore's talent edge should show.
+Clayton,2026_11_BAL_CAR,11,CAR,BAL,CAR,1,0.5,1.0,CAR,1,
+JMack,2026_11_BAL_CAR,11,CAR,BAL,BAL,0,0.5,1.0,CAR,1,
+Claude,2026_11_IND_HOU,11,HOU,IND,HOU,1,0.58,1.0,HOU,1,HOU gets the home division edge despite both teams being banged up; IND missing both starting tackles and two CBs is a bigger blow than HOU losing Harrison Jr. and Hunter.
+Clayton,2026_11_IND_HOU,11,HOU,IND,HOU,1,0.5,1.0,HOU,1,
+JMack,2026_11_IND_HOU,11,HOU,IND,HOU,1,0.57,1.0,HOU,1,
+Claude,2026_11_JAX_NYG,11,NYG,JAX,JAX,0,0.28,1.0,NYG,0,JAX at 7-2 is rolling with three straight blowout wins and has the talent advantage; NYG at 5-3 is respectable at home but JAX's recent dominance is hard to fade.
+Clayton,2026_11_JAX_NYG,11,NYG,JAX,JAX,0,0.5,1.0,NYG,0,
+JMack,2026_11_JAX_NYG,11,NYG,JAX,JAX,0,0.5,1.0,NYG,0,
+Claude,2026_11_LV_DEN,11,DEN,LV,DEN,1,0.8,1.0,DEN,1,"DEN is 7-2 and on a four-game win streak including a division win over KC; LV is 4-6 and struggling, and the Mile High altitude in a division game favors Denver."
+Clayton,2026_11_LV_DEN,11,DEN,LV,DEN,1,0.5,1.0,DEN,1,
+JMack,2026_11_LV_DEN,11,DEN,LV,DEN,1,0.5,1.0,DEN,1,
+Claude,2026_11_MIA_BUF,11,BUF,MIA,BUF,1,0.92,1.0,BUF,1,BUF at 8-1 on a four-game win streak hosting a 1-8 MIA team in a division game is about as close to a lock as it gets in the NFL.
+Clayton,2026_11_MIA_BUF,11,BUF,MIA,BUF,1,0.5,1.0,BUF,1,
+JMack,2026_11_MIA_BUF,11,BUF,MIA,BUF,1,0.5,1.0,BUF,1,
+Claude,2026_11_MIN_SF,11,SF,MIN,SF,1,0.65,1.0,SF,1,SF at 8-1 at home is a strong favorite; MIN is 7-2 but has lost two of three and SF's home record and recent form give them the edge in this top-tier matchup.
+Clayton,2026_11_MIN_SF,11,SF,MIN,MIN,0,0.5,1.0,SF,1,
+JMack,2026_11_MIN_SF,11,SF,MIN,MIN,0,0.5,1.0,SF,1,
+Claude,2026_11_NO_CHI,11,CHI,NO,CHI,1,0.8,1.0,CHI,1,CHI is 7-2 and riding a four-game win streak at home; NO at 3-6 has been inconsistent and CHI's momentum makes this a comfortable lean.
+Clayton,2026_11_NO_CHI,11,CHI,NO,CHI,1,0.5,1.0,CHI,1,
+JMack,2026_11_NO_CHI,11,CHI,NO,CHI,1,0.5,1.0,CHI,1,
+Claude,2026_11_NYJ_LAC,11,LAC,NYJ,LAC,0,0.57,0.0,NYJ,0,Both teams are struggling badly but LAC gets the home field edge and just picked up a win over BAL; NYJ has lost four straight and this is a slight lean to the home team.
+Clayton,2026_11_NYJ_LAC,11,LAC,NYJ,NYJ,1,0.5,0.0,NYJ,0,
+JMack,2026_11_NYJ_LAC,11,LAC,NYJ,LAC,0,0.5,0.0,NYJ,0,
+Claude,2026_11_PIT_PHI,11,PHI,PIT,PIT,0,0.18000000000000005,1.0,PHI,0,PIT at 6-3 with three straight wins faces a PHI team that has lost four straight and is 2-7; this is a strong road favorite situation.
+Clayton,2026_11_PIT_PHI,11,PHI,PIT,PHI,1,0.5,1.0,PHI,0,
+JMack,2026_11_PIT_PHI,11,PHI,PIT,PHI,1,0.5,1.0,PHI,0,
+Claude,2026_11_TB_DET,11,DET,TB,DET,1,0.85,1.0,DET,1,DET is 7-2 on a four-game win streak at home and has been dominant; TB at 3-6 has been inconsistent and Detroit's home field advantage is significant.
+Clayton,2026_11_TB_DET,11,DET,TB,DET,1,0.5,1.0,DET,1,
+JMack,2026_11_TB_DET,11,DET,TB,DET,1,0.5,1.0,DET,1,
+Claude,2026_11_TEN_DAL,11,DAL,TEN,DAL,1,0.75,1.0,DAL,1,"DAL at home against a 1-8 TEN team is a solid lean; despite Dallas being 4-6, Tennessee is the worst team in the league and Dallas should handle business at home."
+Clayton,2026_11_TEN_DAL,11,DAL,TEN,DAL,1,0.5,1.0,DAL,1,
+JMack,2026_11_TEN_DAL,11,DAL,TEN,DAL,1,0.5,1.0,DAL,1,
