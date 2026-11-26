@@ -24,7 +24,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,12,2026_12_CHI_DET,,CHI,DET,Claude,DET,55.0,"Both 8-2 teams are playing elite football, but DET has home field advantage in a division rivalry and has been winning close games consistently, making this a slight lean toward the Lions."
 2026,12,2026_12_CHI_DET,,CHI,DET,Clayton,,,
 2026,12,2026_12_CHI_DET,2026-11-26,CHI,DET,Eman,,,
-2026,12,2026_12_CHI_DET,,CHI,DET,JMack,,,
+2026,12,2026_12_CHI_DET,,CHI,DET,JMack,CHI,50,
 2026,12,2026_12_CHI_DET,2026-11-26,CHI,DET,Mike,,,
 2026,12,2026_12_CHI_DET,2026-11-26,CHI,DET,Tunk,,,
 2026,12,2026_12_DEN_PIT,,DEN,PIT,CMac,DEN,50.0,
@@ -45,7 +45,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,12,2026_12_KC_BUF,,KC,BUF,Claude,BUF,72.0,"BUF at 9-1 has been dominant all season with blowout wins including over KC's conference rivals, while KC lost to Denver recently; Buffalo's home field and overall form make them the clear lean."
 2026,12,2026_12_KC_BUF,,KC,BUF,Clayton,,,
 2026,12,2026_12_KC_BUF,2026-11-26,KC,BUF,Eman,,,
-2026,12,2026_12_KC_BUF,,KC,BUF,JMack,,,
+2026,12,2026_12_KC_BUF,,KC,BUF,JMack,BUF,50,
 2026,12,2026_12_KC_BUF,2026-11-26,KC,BUF,Mike,,,
 2026,12,2026_12_KC_BUF,2026-11-26,KC,BUF,Tunk,,,
 2026,12,2026_12_LV_CLE,,LV,CLE,CMac,LV,50.0,
@@ -87,7 +87,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,12,2026_12_PHI_DAL,,PHI,DAL,Claude,DAL,65.0,"DAL already beat PHI 38-21 earlier this season, PHI is 3-7 and struggling, and DAL has home field in a division game where they've shown they can put up big numbers."
 2026,12,2026_12_PHI_DAL,,PHI,DAL,Clayton,,,
 2026,12,2026_12_PHI_DAL,2026-11-26,PHI,DAL,Eman,,,
-2026,12,2026_12_PHI_DAL,,PHI,DAL,JMack,,,
+2026,12,2026_12_PHI_DAL,,PHI,DAL,JMack,DAL,50,
 2026,12,2026_12_PHI_DAL,2026-11-26,PHI,DAL,Mike,,,
 2026,12,2026_12_PHI_DAL,2026-11-26,PHI,DAL,Tunk,,,
 2026,12,2026_12_SEA_SF,,SEA,SF,CMac,SEA,50.0,
