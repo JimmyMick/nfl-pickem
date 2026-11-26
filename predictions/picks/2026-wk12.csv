@@ -31,7 +31,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,12,2026_12_DEN_PIT,,DEN,PIT,Claude,DEN,68.0,"DEN is 8-2 and riding a four-game winning streak including a win over KC, while PIT has lost two straight; Denver's overall form and talent edge them out on the road."
 2026,12,2026_12_DEN_PIT,,DEN,PIT,Clayton,,,
 2026,12,2026_12_DEN_PIT,2026-11-27,DEN,PIT,Eman,,,
-2026,12,2026_12_DEN_PIT,,DEN,PIT,JMack,,,
+2026,12,2026_12_DEN_PIT,,DEN,PIT,JMack,DEN,50,
 2026,12,2026_12_DEN_PIT,2026-11-27,DEN,PIT,Mike,,,
 2026,12,2026_12_DEN_PIT,2026-11-27,DEN,PIT,Tunk,,,
 2026,12,2026_12_GB_LA,,GB,LA,CMac,LA,50.0,
