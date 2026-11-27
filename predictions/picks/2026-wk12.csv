@@ -22,14 +22,14 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,12,2026_12_CAR_TB,2026-11-30,CAR,TB,Tunk,,,
 2026,12,2026_12_CHI_DET,,CHI,DET,CMac,CHI,50.0,
 2026,12,2026_12_CHI_DET,,CHI,DET,Claude,DET,55.0,"Both 8-2 teams are playing elite football, but DET has home field advantage in a division rivalry and has been winning close games consistently, making this a slight lean toward the Lions."
-2026,12,2026_12_CHI_DET,,CHI,DET,Clayton,DET,50,
+2026,12,2026_12_CHI_DET,,CHI,DET,Clayton,DET,50.0,
 2026,12,2026_12_CHI_DET,2026-11-26,CHI,DET,Eman,,,
 2026,12,2026_12_CHI_DET,,CHI,DET,JMack,CHI,50.0,
 2026,12,2026_12_CHI_DET,2026-11-26,CHI,DET,Mike,,,
 2026,12,2026_12_CHI_DET,2026-11-26,CHI,DET,Tunk,,,
 2026,12,2026_12_DEN_PIT,,DEN,PIT,CMac,DEN,50.0,
 2026,12,2026_12_DEN_PIT,,DEN,PIT,Claude,DEN,68.0,"DEN is 8-2 and riding a four-game winning streak including a win over KC, while PIT has lost two straight; Denver's overall form and talent edge them out on the road."
-2026,12,2026_12_DEN_PIT,,DEN,PIT,Clayton,,,
+2026,12,2026_12_DEN_PIT,,DEN,PIT,Clayton,DEN,50,
 2026,12,2026_12_DEN_PIT,2026-11-27,DEN,PIT,Eman,,,
 2026,12,2026_12_DEN_PIT,,DEN,PIT,JMack,DEN,50.0,
 2026,12,2026_12_DEN_PIT,2026-11-27,DEN,PIT,Mike,,,
@@ -43,7 +43,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,12,2026_12_GB_LA,2026-11-25,GB,LA,Tunk,,,
 2026,12,2026_12_KC_BUF,,KC,BUF,CMac,KC,50.0,
 2026,12,2026_12_KC_BUF,,KC,BUF,Claude,BUF,72.0,"BUF at 9-1 has been dominant all season with blowout wins including over KC's conference rivals, while KC lost to Denver recently; Buffalo's home field and overall form make them the clear lean."
-2026,12,2026_12_KC_BUF,,KC,BUF,Clayton,KC,50,
+2026,12,2026_12_KC_BUF,,KC,BUF,Clayton,KC,50.0,
 2026,12,2026_12_KC_BUF,2026-11-26,KC,BUF,Eman,,,
 2026,12,2026_12_KC_BUF,,KC,BUF,JMack,BUF,50.0,
 2026,12,2026_12_KC_BUF,2026-11-26,KC,BUF,Mike,,,
@@ -85,7 +85,7 @@ season,week,game_id,gameday,away_team,home_team,player,pick,confidence,rationale
 2026,12,2026_12_NYJ_MIA,2026-11-29,NYJ,MIA,Tunk,,,
 2026,12,2026_12_PHI_DAL,,PHI,DAL,CMac,DAL,50.0,
 2026,12,2026_12_PHI_DAL,,PHI,DAL,Claude,DAL,65.0,"DAL already beat PHI 38-21 earlier this season, PHI is 3-7 and struggling, and DAL has home field in a division game where they've shown they can put up big numbers."
-2026,12,2026_12_PHI_DAL,,PHI,DAL,Clayton,DAL,50,
+2026,12,2026_12_PHI_DAL,,PHI,DAL,Clayton,DAL,50.0,
 2026,12,2026_12_PHI_DAL,2026-11-26,PHI,DAL,Eman,,,
 2026,12,2026_12_PHI_DAL,,PHI,DAL,JMack,DAL,50.0,
 2026,12,2026_12_PHI_DAL,2026-11-26,PHI,DAL,Mike,,,
